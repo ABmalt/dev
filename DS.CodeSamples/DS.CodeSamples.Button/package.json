@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "ajv": "^6.5.3",
-    "bm-malt-css": "^1.0.4",
+    "malt-css": "^1.0.4",
     "react": "16.4.2",
     "react-dom": "16.4.2",
     "react-scripts": "1.0.10",
