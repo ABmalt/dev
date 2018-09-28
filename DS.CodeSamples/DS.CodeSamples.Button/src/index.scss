@@ -1,4 +1,6 @@
-@import "../node_modules/bm-malt-css/syncfusion-theme";
+@import "../node_modules/malt-css/preflight";
+@import "../node_modules/malt-css/syncfusion-theme";
+@import "../node_modules/malt-css/utils";
 
 .App {
   max-width: 555px;
