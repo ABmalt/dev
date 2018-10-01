@@ -7,12 +7,12 @@ class SwitchDoc extends Component {
   render() {
     return (
       <div className="mt-8 Comp">
-        <div className="flex">
+        <div className="flex items-center">
           <div className="flex-1 font-bold">Switch</div>
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <SwitchComponent checked={true} className="alt2" />
+                <SwitchComponent checked={true} cssClass="abi-css" />
               </div>
               <div className="flex-1">
                 <SwitchComponent disabled={true} checked={true} />

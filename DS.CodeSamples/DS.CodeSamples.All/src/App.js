@@ -1,8 +1,11 @@
 import * as React from "react";
+
 import AppRows from "./AppRows";
 import SwitchDoc from "./comps/switch";
 import CheckboxDoc from "./comps/checkbox";
 import RadioDoc from "./comps/radio";
+import SliderDoc from "./comps/slider";
+import ButtonDoc from "./comps/button";
 
 class App extends React.Component {
   render() {
@@ -12,6 +15,8 @@ class App extends React.Component {
         <SwitchDoc />
         <CheckboxDoc />
         <RadioDoc />
+        <SliderDoc />
+        <ButtonDoc />
       </div>
     );
   }
