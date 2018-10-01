@@ -11,50 +11,54 @@ class CheckboxDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <CheckBoxComponent checked={true} cssClass="abi-css" />
+                <CheckBoxComponent
+                  label="abc"
+                  checked={true}
+                  cssClass="abi-css"
+                />
               </div>
               <div className="flex-1">
-                <CheckBoxComponent disabled={true} checked={true} />
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 text-center">
-            <div className="flex">
-              <div className="flex-1">
-                <CheckBoxComponent checked={true} />
-              </div>
-              <div className="flex-1">
-                <CheckBoxComponent disabled={true} checked={true} />
+                <CheckBoxComponent label="abc" disabled={true} checked={true} />
               </div>
             </div>
           </div>
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <CheckBoxComponent checked={true} />
+                <CheckBoxComponent label="abc" checked={true} />
               </div>
               <div className="flex-1">
-                <CheckBoxComponent disabled={true} checked={true} />
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 text-center">
-            <div className="flex">
-              <div className="flex-1">
-                <CheckBoxComponent checked={true} />
-              </div>
-              <div className="flex-1">
-                <CheckBoxComponent disabled={true} checked={true} />
+                <CheckBoxComponent label="abc" disabled={true} checked={true} />
               </div>
             </div>
           </div>
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <CheckBoxComponent />
+                <CheckBoxComponent label="abc" checked={true} />
               </div>
               <div className="flex-1">
-                <CheckBoxComponent disabled={true} />
+                <CheckBoxComponent label="abc" disabled={true} checked={true} />
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 text-center">
+            <div className="flex">
+              <div className="flex-1">
+                <CheckBoxComponent label="abc" checked={true} />
+              </div>
+              <div className="flex-1">
+                <CheckBoxComponent label="abc" disabled={true} checked={true} />
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 text-center">
+            <div className="flex">
+              <div className="flex-1">
+                <CheckBoxComponent label="abc" />
+              </div>
+              <div className="flex-1">
+                <CheckBoxComponent label="abc" disabled={true} />
               </div>
             </div>
           </div>

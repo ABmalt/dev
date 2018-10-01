@@ -11,7 +11,7 @@ class ButtonDoc extends React.Component {
     return (
       <div className="mt-8 Comp">
         <div className="flex items-center">
-          <div className="pr-16 font-bold">Slider</div>
+          <div className="pr-16 font-bold">Button</div>
           <div className="flex-1 text-center">
             <ButtonComponent>Button</ButtonComponent>
           </div>

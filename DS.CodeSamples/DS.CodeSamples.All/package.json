@@ -57,7 +57,8 @@
     "@syncfusion/ej2-react-heatmap": "16.3.21"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar --include-path ./node_modules ./src/ -o ./src/ --output-style compressed",
+    "build-css": "node-sass-chokidar --include-path ./src/syncfusion ./src/ -o ./src/ --output-style compressed",
+    "watch-css": "node-sass-chokidar --include-path ./src/syncfusion ./src/ -o ./src/ --output-style compressed --watch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"

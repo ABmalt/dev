@@ -12,16 +12,6 @@ class SwitchDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <SwitchComponent checked={true} cssClass="abi-css" />
-              </div>
-              <div className="flex-1">
-                <SwitchComponent disabled={true} checked={true} />
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 text-center">
-            <div className="flex">
-              <div className="flex-1">
                 <SwitchComponent checked={true} />
               </div>
               <div className="flex-1">
@@ -32,20 +22,42 @@ class SwitchDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <SwitchComponent checked={true} />
+                <SwitchComponent checked={true} cssClass="malt-switch-alt1" />
               </div>
               <div className="flex-1">
-                <SwitchComponent disabled={true} checked={true} />
+                <SwitchComponent
+                  disabled={true}
+                  cssClass="malt-switch-alt1"
+                  checked={true}
+                />
               </div>
             </div>
           </div>
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <SwitchComponent checked={true} />
+                <SwitchComponent checked={true} cssClass="malt-switch-alt2" />
               </div>
               <div className="flex-1">
-                <SwitchComponent disabled={true} checked={true} />
+                <SwitchComponent
+                  disabled={true}
+                  cssClass="malt-switch-alt2"
+                  checked={true}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 text-center">
+            <div className="flex">
+              <div className="flex-1">
+                <SwitchComponent checked={true} cssClass="malt-switch-alt3" />
+              </div>
+              <div className="flex-1">
+                <SwitchComponent
+                  disabled={true}
+                  cssClass="malt-switch-alt3"
+                  checked={true}
+                />
               </div>
             </div>
           </div>

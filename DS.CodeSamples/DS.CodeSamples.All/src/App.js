@@ -17,6 +17,8 @@ class App extends React.Component {
         <RadioDoc />
         <SliderDoc />
         <ButtonDoc />
+        <br />
+        <br />
       </div>
     );
   }

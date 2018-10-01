@@ -11,15 +11,11 @@ class RadioDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <RadioButtonComponent
-                  label="-"
-                  checked={true}
-                  cssClass="abi-css"
-                />
+                <RadioButtonComponent label="abc" checked={true} />
               </div>
               <div className="flex-1">
                 <RadioButtonComponent
-                  label="-"
+                  label="abc"
                   disabled={true}
                   checked={true}
                 />
@@ -29,11 +25,16 @@ class RadioDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <RadioButtonComponent label="-" checked={true} />
+                <RadioButtonComponent
+                  label="abc"
+                  cssClass="malt-switch-alt1"
+                  checked={true}
+                />
               </div>
               <div className="flex-1">
                 <RadioButtonComponent
-                  label="-"
+                  label="abc"
+                  cssClass="malt-switch-alt1"
                   disabled={true}
                   checked={true}
                 />
@@ -43,11 +44,16 @@ class RadioDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <RadioButtonComponent label="-" checked={true} />
+                <RadioButtonComponent
+                  label="abc"
+                  cssClass="malt-switch-alt2"
+                  checked={true}
+                />
               </div>
               <div className="flex-1">
                 <RadioButtonComponent
-                  label="-"
+                  label="abc"
+                  cssClass="malt-switch-alt2"
                   disabled={true}
                   checked={true}
                 />
@@ -57,11 +63,16 @@ class RadioDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <RadioButtonComponent label="-" checked={true} />
+                <RadioButtonComponent
+                  label="abc"
+                  cssClass="malt-switch-alt3"
+                  checked={true}
+                />
               </div>
               <div className="flex-1">
                 <RadioButtonComponent
-                  label="-"
+                  label="abc"
+                  cssClass="malt-switch-alt3"
                   disabled={true}
                   checked={true}
                 />
@@ -71,10 +82,10 @@ class RadioDoc extends Component {
           <div className="flex-1 text-center">
             <div className="flex">
               <div className="flex-1">
-                <RadioButtonComponent label="-" />
+                <RadioButtonComponent label="abc" />
               </div>
               <div className="flex-1">
-                <RadioButtonComponent label="-" disabled={true} />
+                <RadioButtonComponent label="abc" disabled={true} />
               </div>
             </div>
           </div>

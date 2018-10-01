@@ -1,14 +1,70 @@
 //@import "../node_modules/malt-css/preflight";
 // @import "../node_modules/malt-css/syncfusion-theme";
 
-$accent: gold;
-$primary: purple;
-
 @import "../node_modules/malt-css/preflight";
 
-@import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.scss";
+@import "./syncfusion/ej2-base/styles/material.scss";
+@import "./syncfusion/ej2-buttons/styles/material.scss";
 
-$accent: gold;
-$primary: purple;
+@import "./syncfusion/ej2-popups/styles/material.scss";
+@import "./syncfusion/ej2-inputs/styles/material.scss";
+/**
+ * ej2 styles
+ */
+// @import "./syncfusion/ej2-base/styles/material.scss";
+// @import "./syncfusion/ej2-accordion/styles/material.scss";
+// @import "./syncfusion/ej2-drop-down-list/styles/material.scss";
+// @import "./syncfusion/ej2-input/styles/material.scss";
+// @import "./syncfusion/ej2-numerictextbox/styles/material.scss";
+// @import "./syncfusion/ej2-maskedtextbox/styles/material.scss";
+// @import "./syncfusion/ej2-tooltip/styles/material.scss";
+// @import "./syncfusion/ej2-slider/styles/material.scss";
+// @import "./syncfusion/ej2-button/styles/material.scss";
+// @import "./syncfusion/ej2-spinner/styles/material.scss";
+// @import "./syncfusion/ej2-uploader/styles/material.scss";
+// @import "./syncfusion/ej2-dialog/styles/material.scss";
+// @import "./syncfusion/ej2-popup/styles/material.scss";
+// @import "./syncfusion/ej2-drop-down-base/styles/material.scss";
+// @import "./syncfusion/ej2-auto-complete/styles/material.scss";
+// @import "./syncfusion/ej2-avatar/styles/material.scss";
+// @import "./syncfusion/ej2-badge/styles/material.scss";
+// @import "./syncfusion/ej2-calendar/styles/material.scss";
+// @import "./syncfusion/ej2-card/styles/material.scss";
+// @import "./syncfusion/ej2-check-box/styles/material.scss";
+// @import "./syncfusion/ej2-circular-gauge/styles/material.scss";
+// @import "./syncfusion/ej2-color-picker/styles/material.scss";
+// @import "./syncfusion/ej2-combo-box/styles/material.scss";
+// @import "./syncfusion/ej2-context-menu/styles/material.scss";
+// @import "./syncfusion/ej2-datepicker/styles/material.scss";
+// @import "./syncfusion/ej2-radio-button/styles/material.scss";
+// @import "./syncfusion/ej2-switch/styles/material.scss";
+// @import "./syncfusion/ej2-list-view/styles/material.scss";
+// @import "./syncfusion/ej2-daterangepicker/styles/material.scss";
+// @import "./syncfusion/ej2-datetimepicker/styles/material.scss";
+// @import "./syncfusion/ej2-h-scroll/styles/material.scss";
+// @import "./syncfusion/ej2-toolbar/styles/material.scss";
+// @import "./syncfusion/ej2-menu/styles/material.scss";
+// @import "./syncfusion/ej2-tab/styles/material.scss";
+// @import "./syncfusion/ej2-treeview/styles/material.scss";
+// @import "./syncfusion/ej2-sidebar/styles/material.scss";
+// @import "./syncfusion/ej2-diagram/styles/material.scss";
+// @import "./syncfusion/ej2-multi-select/styles/material.scss";
+// @import "./syncfusion/ej2-document-editor/styles/material.scss";
+// @import "./syncfusion/ej2-drop-down-button/styles/material.scss";
+// @import "./syncfusion/ej2-field-list/styles/material.scss";
+// @import "./syncfusion/ej2-pager/styles/material.scss";
+// @import "./syncfusion/ej2-timepicker/styles/material.scss";
+// @import "./syncfusion/ej2-grid/styles/material.scss";
+// @import "./syncfusion/ej2-linear-gauge/styles/material.scss";
+// @import "./syncfusion/ej2-maps/styles/material.scss";
+// @import "./syncfusion/ej2-pivotview/styles/material.scss";
+// @import "./syncfusion/ej2-progress-button/styles/material.scss";
+// @import "./syncfusion/ej2-recurrence-editor/styles/material.scss";
+// @import "./syncfusion/ej2-split-button/styles/material.scss";
+// @import "./syncfusion/ej2-button-group/styles/material.scss";
+// @import "./syncfusion/ej2-rich-text-editor/styles/material.scss";
+// @import "./syncfusion/ej2-schedule/styles/material.scss";
+// @import "./syncfusion/ej2-textbox/styles/material.scss";
+// @import "./syncfusion/ej2-toast/styles/material.scss";
 
 @import "../node_modules/malt-css/utils";
