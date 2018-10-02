@@ -1,86 +1,43 @@
-import React, { Component } from "react";
-
-class App extends Component {
+import * as React from "react";
+import { CheckBoxComponent } from "@syncfusion/ej2-react-buttons";
+import { enableRipple } from "@syncfusion/ej2-base";
+enableRipple(true);
+class App extends React.PureComponent {
+  // function to handle the CheckBox change event
+  onChange(args) {
+    this.checkboxObj.label = "CheckBox: " + args.checked;
+  }
   render() {
     return (
       <div className="App">
-        <h1>Checkboxes</h1>
+        <br />
+        <h1>CheckBox Component</h1>
         <br />
         <br />
-        <div className="checkbox-control">
-          <div className="row">
-            <div
-              className="e-checkbox-wrapper"
-              role="checkbox"
-              aria-checked="true"
-            >
-              <label for="checked">
-                <input
-                  id="checked"
-                  type="checkbox"
-                  class="e-control e-checkbox"
-                />
-                <span
-                  class="e-ripple-container e-ripple-check e-ripple"
-                  data-ripple="true"
-                >
-                  <div class="e-ripple-element" />
-                </span>
-                <span class="e-icons e-frame e-check" />
-                <span class="e-label">CheckBox: true</span>
-              </label>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              className="e-checkbox-wrapper e-checkbox-disabled"
-              role="checkbox"
-              aria-checked="true"
-              aria-disabled="true"
-            >
-              <label for="disabled">
-                <input
-                  id="disabled"
-                  type="checkbox"
-                  class="e-control e-checkbox"
-                  disabled=""
-                />
-                <span
-                  class="e-ripple-container e-ripple-check"
-                  data-ripple="true"
-                />
-                <span class="e-icons e-frame e-check" />
-                <span class="e-label">Checked, Disabled</span>
-              </label>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              className="e-checkbox-wrapper e-checkbox-disabled"
-              role="checkbox"
-              aria-checked="mixed"
-              aria-disabled="true"
-            >
-              <label for="indeterminate">
-                <input
-                  id="indeterminate"
-                  type="checkbox"
-                  class="e-control e-checkbox"
-                  disabled=""
-                />
-                <span
-                  class="e-ripple-container e-ripple-stop"
-                  data-ripple="true"
-                />
-                <span class="e-icons e-frame e-stop" />
-                <span class="e-label">Indeterminate, Disabled</span>
-              </label>
-            </div>
-          </div>
-        </div>
+        <CheckBoxComponent
+          checked={true}
+          label="CheckBox: true"
+          ref={scope => {
+            this.checkboxObj = scope;
+          }}
+          change={this.onChange.bind(this)}
+        />
+        <br />
+        <br />
+        <CheckBoxComponent
+          label="Checked, Disabled"
+          disabled={true}
+          checked={true}
+        />
+        <br />
+        <br />
+        <CheckBoxComponent
+          label="Indeterminate, Disabled"
+          indeterminate={true}
+          disabled={true}
+        />
       </div>
     );
   }
 }
-
 export default App;
