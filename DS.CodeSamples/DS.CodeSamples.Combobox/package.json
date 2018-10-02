@@ -2,13 +2,12 @@
   "name": "combobox",
   "version": "0.1.0",
   "dependencies": {
+    "@syncfusion/ej2-buttons": "^16.2.50",
+    "@syncfusion/ej2-react-dropdowns": "^16.2.50",
     "ajv": "^6.5.3",
-    "malt-css": "^1.0",
     "react": "16.4.2",
     "react-dom": "16.4.2",
-    "react-scripts": "1.0.10",
-    "@syncfusion/ej2-buttons": "^16.2.50",
-    "@syncfusion/ej2-react-dropdowns": "^16.2.50"
+    "react-scripts": "1.0.10"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./node_modules ./src/ -o ./src/ --output-style compressed",
