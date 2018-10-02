@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import { enableRipple } from "@syncfusion/ej2-base";
+enableRipple(true);
 class App extends Component {
   render() {
     return (

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
 import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
-
+import { enableRipple } from "@syncfusion/ej2-base";
+enableRipple(true);
 class App extends Component {
   constructor() {
     super(...arguments);

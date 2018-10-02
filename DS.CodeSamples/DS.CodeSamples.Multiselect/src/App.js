@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
 import { MultiSelectComponent } from "@syncfusion/ej2-react-dropdowns";
-
+import { enableRipple } from "@syncfusion/ej2-base";
+enableRipple(true);
 class App extends React.PureComponent {
   constructor() {
     super(...arguments);
