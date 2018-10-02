@@ -6,6 +6,8 @@ import CheckboxDoc from "./comps/checkbox";
 import RadioDoc from "./comps/radio";
 import SliderDoc from "./comps/slider";
 import ButtonDoc from "./comps/button";
+import MultiSelectDoc from "./comps/multiselect";
+import DropdownDoc from "./comps/dropdown";
 
 class App extends React.Component {
   render() {
@@ -17,6 +19,8 @@ class App extends React.Component {
         <RadioDoc />
         <SliderDoc />
         <ButtonDoc />
+        <MultiSelectDoc />
+        <DropdownDoc />
         <br />
         <br />
       </div>
