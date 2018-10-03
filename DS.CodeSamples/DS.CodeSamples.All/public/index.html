@@ -5,7 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>App</title>
-  <link href="https://getsetbro.github.io/dev/css/bundle.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- <link href="bundle.css" rel="stylesheet"> -->
+  <!-- <link href="https://getsetbro.github.io/dev/css/bundle.css" rel="stylesheet" crossorigin="anonymous"> -->
+  <script>
+    var linkEl = document.createElement('link');
+    linkEl.setAttribute('rel', 'stylesheet');
+    linkEl.setAttribute('type', 'text/css');
+    if (location.hostname === 'localhost') { linkEl.href = 'bundle.css'; }
+    else { linkEl.href = 'https://getsetbro.github.io/dev/css/bundle.css'; }
+    document.head.appendChild(linkEl);
+  </script>
 </head>
 
 <body>
