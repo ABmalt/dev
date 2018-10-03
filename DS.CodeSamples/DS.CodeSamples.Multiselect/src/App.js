@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { MultiSelectComponent } from "@syncfusion/ej2-react-dropdowns";
+import {
+  MultiSelectComponent,
+  CheckBoxSelection,
+  Inject
+} from "@syncfusion/ej2-react-dropdowns";
+import { CheckBoxComponent } from "@syncfusion/ej2-react-buttons";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 class App extends React.PureComponent {
