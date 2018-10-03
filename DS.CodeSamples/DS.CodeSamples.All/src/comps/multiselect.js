@@ -47,7 +47,7 @@ class MultiSelectDoc extends React.Component {
               mode="Box"
               fields={this.fields}
               placeholder="Favorite Sports"
-            />{" "}
+            />
           </div>
           <div className="flex-1 text-center px-2">
             <MultiSelectComponent
