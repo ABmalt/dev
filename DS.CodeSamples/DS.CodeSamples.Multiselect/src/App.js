@@ -6,7 +6,7 @@ class App extends React.PureComponent {
   constructor() {
     super(...arguments);
     //define the data with category
-    this.vegetableData = [
+    this.list = [
       { Vegetable: "Cabbage", Category: "Leafy and Salad", Id: "item1" },
       { Vegetable: "Chickpea", Category: "Beans", Id: "item2" },
       { Vegetable: "Garlic", Category: "Bulb and Stem", Id: "item3" },
@@ -20,17 +20,30 @@ class App extends React.PureComponent {
       { Vegetable: "Yarrow", Category: "Leafy and Salad", Id: "item11" }
     ];
     // map the groupBy field with category column
-    this.groupFields = { groupBy: "Category", text: "Vegetable", value: "Id" };
+    this.field = { groupBy: "Category", text: "Vegetable", value: "Id" };
   }
   render() {
     return (
       <div className="App">
         <h4>Grouping</h4>
         <MultiSelectComponent
-          dataSource={this.vegetableData}
-          fields={this.groupFields}
-          placeholder="Select vegetables"
+          dataSource={this.list}
+          fields={this.field}
+          placeholder="Select"
         />
+        <br />
+        <h4>MultiSelect with CheckBox</h4>
+        <MultiSelectComponent
+          dataSource={this.list}
+          fields={this.field}
+          placeholder="Select"
+          mode="CheckBox"
+          showSelectAll={true}
+          showDropDownIcon={true}
+          filterBarPlaceholder="Search"
+        >
+          <Inject services={[CheckBoxSelection]} />
+        </MultiSelectComponent>
       </div>
     );
   }
