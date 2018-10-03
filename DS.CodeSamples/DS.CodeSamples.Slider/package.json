@@ -1,5 +1,6 @@
 {
   "name": "slider",
+  "description": "sample",
   "version": "0.1.0",
   "dependencies": {
     "ajv": "^6.5.3",
