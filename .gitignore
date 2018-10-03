@@ -1,1 +1,12 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DesignSystem/.vs/DesignSystem
+/DesignSystem/obj
+/DesignSystem.Api/bin/Debug/netcoreapp2.1
+/DesignSystem.Api/obj
+*node_modules*
+*obj*
+*bin*
 DS.CodeSamples/*/public/bundle.css
