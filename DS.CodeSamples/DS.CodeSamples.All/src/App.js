@@ -8,6 +8,9 @@ import SliderDoc from "./comps/slider";
 import ButtonDoc from "./comps/button";
 import MultiSelectDoc from "./comps/multiselect";
 import DropdownDoc from "./comps/dropdown";
+import InputDoc from "./comps/input";
+import SplitButtonDoc from "./comps/splitbutton";
+import DropDownButtonDoc from "./comps/dropdownbutton";
 
 class App extends React.Component {
   render() {
@@ -18,11 +21,13 @@ class App extends React.Component {
         <CheckboxDoc />
         <RadioDoc />
         <SliderDoc />
+        <InputDoc />
         <ButtonDoc />
-        <MultiSelectDoc />
+        <SplitButtonDoc />
+        <DropDownButtonDoc />
         <DropdownDoc />
-        <br />
-        <br />
+        <MultiSelectDoc />
+        <p className="my-64">&nbsp;</p>
       </div>
     );
   }

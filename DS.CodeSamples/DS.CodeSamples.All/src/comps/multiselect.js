@@ -9,7 +9,7 @@ class MultiSelectDoc extends React.Component {
   constructor() {
     super(...arguments);
     // define the JSON of data
-    this.sportsData = [
+    this.sports = [
       { Id: "Game1", Sports: "American Football" },
       { Id: "Game2", Sports: "Badminton" },
       { Id: "Game3", Sports: "Basketball" },
@@ -23,40 +23,40 @@ class MultiSelectDoc extends React.Component {
     ];
     // maps the appropriate column to fields property
     this.fields = { text: "Sports", value: "Id" };
-    // set the value to select an item based on mapped value at initial rendering
-    this.value = "Game3";
   }
   render() {
     return (
       <div className="mt-8 Comp">
         <div className="flex items-center">
           <div className="pr-16 font-bold">MultiSelect</div>
-          <div className="flex-1 text-center px-2">
+          <div className="flex-1 px-2">
             <MultiSelectComponent
-              id="defaultelement"
-              dataSource={this.sportsData}
+              dataSource={this.sports}
               mode="Default"
               fields={this.fields}
-              placeholder="Favorite Sports"
+              placeholder="Default"
             />
           </div>
-          <div className="flex-1 text-center px-2">
+          <div className="flex-1 px-2">
             <MultiSelectComponent
-              id="boxelement"
-              dataSource={this.sportsData}
-              mode="Box"
+              dataSource={this.sports}
+              mode="Default"
               fields={this.fields}
-              placeholder="Favorite Sports"
+              placeholder="Default"
+              enabled={false}
             />
           </div>
-          <div className="flex-1 text-center px-2">
+
+          <div className="flex-1 px-2">
             <MultiSelectComponent
-              id="delimiterelement"
-              dataSource={this.sportsData}
-              mode="Delimiter"
+              dataSource={this.sports}
+              mode="CheckBox"
               fields={this.fields}
-              placeholder="Favorite Sports"
-            />
+              placeholder="CheckBoxes"
+              showSelectAll={true}
+            >
+              <Inject services={[CheckBoxSelection]} />
+            </MultiSelectComponent>
           </div>
         </div>
       </div>
