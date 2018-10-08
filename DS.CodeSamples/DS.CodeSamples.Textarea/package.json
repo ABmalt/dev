@@ -1,0 +1,17 @@
+{
+  "name": "textarea",
+  "description": "sample",
+  "version": "0.1.0",
+  "dependencies": {
+    "@syncfusion/ej2-base": "16.3.17",
+    "ajv": "^6.5.4",
+    "malt-css": "^1.0.20181039",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-scripts": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}

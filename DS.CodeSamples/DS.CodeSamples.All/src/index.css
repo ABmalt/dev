@@ -1,0 +1,199 @@
+﻿.App {
+  max-width: 555px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.e-a:before,
+.e-b:before,
+.e-c:before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-input-picture:before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-input-calendar:before {
+  content: "";
+  font-family: e-icons;
+}
+
+.e-btn-icons {
+  font-family: "e-btn-icons";
+  font-weight: normal;
+}
+.e-icons {
+  font-family: e-icons;
+}
+.e-paste::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-paste-special::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-paste-formula::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-paste-hyperlink::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-paste::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-paste-special::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-paste-formula::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-paste-hyperlink::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-logout::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-dashboard::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-profile::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-notifications::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-settings::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-logout::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-dashboard::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-profile::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-notifications::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-settings::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-dropdown-btn .e-ddb-icons,
+.e-dropdown-popup .e-ddb-icons {
+  font-family: e-icons;
+}
+
+.e-logout::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-dashboard::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-profile::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-notifications::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-settings::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-logout::before,
+.bootstrap .e-logout::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-dashboard::before,
+.bootstrap .e-dashboard::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-profile::before,
+.bootstrap .e-profile::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-notifications::before,
+.bootstrap .e-notifications::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.material .e-settings::before,
+.bootstrap .e-settings::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-play-icon::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-pause-icon::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-open-icon::before {
+  content: "\e798";
+  font-family: e-icons;
+}
+
+.e-add-icon::before {
+  content: "\e798";
+  font-family: e-icons;
+}
