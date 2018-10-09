@@ -12,6 +12,7 @@ import MultiSelectDoc from "./comps/multiselect";
 import DropdownDoc from "./comps/dropdown";
 import SplitButtonDoc from "./comps/splitbutton";
 import DropDownButtonDoc from "./comps/dropdownbutton";
+import ProgressbarDoc from "./comps/progressbar";
 
 class App extends React.Component {
   render() {
@@ -29,6 +30,7 @@ class App extends React.Component {
         <DropDownButtonDoc />
         <DropdownDoc />
         <MultiSelectDoc />
+        <ProgressbarDoc />
       </div>
     );
   }

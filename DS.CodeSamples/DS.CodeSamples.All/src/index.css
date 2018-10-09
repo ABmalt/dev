@@ -148,32 +148,27 @@
   font-family: e-icons;
 }
 
-.material .e-logout::before,
-.bootstrap .e-logout::before {
+.material .e-logout::before {
   content: "\e798";
   font-family: e-icons;
 }
 
-.material .e-dashboard::before,
-.bootstrap .e-dashboard::before {
+.material .e-dashboard::before {
   content: "\e798";
   font-family: e-icons;
 }
 
-.material .e-profile::before,
-.bootstrap .e-profile::before {
+.material .e-profile::before {
   content: "\e798";
   font-family: e-icons;
 }
 
-.material .e-notifications::before,
-.bootstrap .e-notifications::before {
+.material .e-notifications::before {
   content: "\e798";
   font-family: e-icons;
 }
 
-.material .e-settings::before,
-.bootstrap .e-settings::before {
+.material .e-settings::before {
   content: "\e798";
   font-family: e-icons;
 }
