@@ -38,17 +38,33 @@ export default class SplitButtonDoc extends React.PureComponent {
     return (
       <div className="mt-8 Comp">
         <div className="flex items-center">
-          <div className="pr-16 font-bold">SplitButton</div>
+          <div className="w-48 font-bold">SplitButton</div>
 
           <div className="flex-1 px-2">
             <SplitButtonComponent
+              cssClass="e-primary"
               items={this.items}
               content="Paste"
+            />
+            <span>&nbsp;</span>
+            <SplitButtonComponent
               cssClass="e-primary"
+              items={this.items}
+              content="Paste"
+              disabled
             />
           </div>
+
           <div className="flex-1 px-2">
             <SplitButtonComponent
+              cssClass="e-outline"
+              items={this.items}
+              content="Paste"
+              iconCss="e-btn-icons e-paste"
+            />
+            <span>&nbsp;</span>
+            <SplitButtonComponent
+              cssClass="e-outline"
               items={this.items}
               content="Paste"
               iconCss="e-btn-icons e-paste"
@@ -57,10 +73,18 @@ export default class SplitButtonDoc extends React.PureComponent {
           </div>
           <div className="flex-1 px-2">
             <SplitButtonComponent
+              cssClass="e-flat"
               items={this.items}
               content="Paste"
               iconCss="e-btn-icons e-paste"
-              beforeItemRender={this.addDisabled}
+            />
+            <span>&nbsp;</span>
+            <SplitButtonComponent
+              cssClass="e-flat"
+              items={this.items}
+              content="Paste"
+              iconCss="e-btn-icons e-paste"
+              disabled
             />
           </div>
         </div>

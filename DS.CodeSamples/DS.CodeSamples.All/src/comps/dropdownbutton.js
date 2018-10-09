@@ -29,17 +29,16 @@ export default class DropDownButtonDoc extends React.PureComponent {
     return (
       <div className="mt-8 Comp">
         <div className="flex items-center">
-          <div className="pr-16 font-bold">DropDownButton</div>
+          <div className="w-48 font-bold">DropDownButton</div>
 
           <div className="flex-1 px-2">
             <DropDownButtonComponent items={this.items} cssClass="e-primary">
               Profile
             </DropDownButtonComponent>
-          </div>
-          <div className="flex-1 px-2">
+            <span>&nbsp;</span>
             <DropDownButtonComponent
               items={this.items}
-              iconCss="e-ddb-icons e-profile"
+              cssClass="e-primary"
               disabled
             >
               Profile
@@ -47,7 +46,28 @@ export default class DropDownButtonDoc extends React.PureComponent {
           </div>
 
           <div className="flex-1 px-2">
-            <DropDownButtonComponent items={this.items} cssClass="e-caret-hide">
+            <DropDownButtonComponent items={this.items} cssClass="e-outline">
+              Profile
+            </DropDownButtonComponent>
+            <span>&nbsp;</span>
+            <DropDownButtonComponent
+              items={this.items}
+              cssClass="e-outline"
+              disabled
+            >
+              Profile
+            </DropDownButtonComponent>
+          </div>
+          <div className="flex-1 px-2">
+            <DropDownButtonComponent items={this.items} cssClass="e-flat">
+              Profile
+            </DropDownButtonComponent>
+            <span>&nbsp;</span>
+            <DropDownButtonComponent
+              items={this.items}
+              cssClass="e-flat"
+              disabled
+            >
               Profile
             </DropDownButtonComponent>
           </div>

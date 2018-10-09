@@ -32,8 +32,16 @@ export default class InputValidatorDoc extends React.PureComponent {
     return (
       <div>
         <div className="mt-8 Comp">
-          <div className="flex items-center">
-            <div className="pr-16 font-bold">TextBox</div>
+          <div className="flex">
+            <div className="w-48 font-bold">Validator</div>
+            <div className="flex-1 px-2">
+              <div className="e-float-input e-input-group">
+                <input type="text" required />
+                <span className="e-float-line" />
+                <label className="e-float-text">Country</label>
+                <span className="e-input-group-icon e-spin-down" />
+              </div>
+            </div>
 
             <div className="flex-1 px-2">
               <div id="iv1">
@@ -52,6 +60,7 @@ export default class InputValidatorDoc extends React.PureComponent {
                 <div id="nameError1" />
               </div>
             </div>
+
             <div className="flex-1 px-2">
               <div id="iv2">
                 <div className="e-float-input">

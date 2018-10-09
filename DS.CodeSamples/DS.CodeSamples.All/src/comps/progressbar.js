@@ -8,7 +8,7 @@ export default class ProgressbarDoc extends Component {
     return (
       <div className="mt-8 Comp">
         <div className="flex items-center">
-          <div className="pr-16 font-bold">Progressbar</div>
+          <div className="w-48 font-bold">Progressbar</div>
           <div className="flex-1 px-2">
             <div
               className="e-upload e-control e-keyboard"
@@ -19,7 +19,7 @@ export default class ProgressbarDoc extends Component {
                   className="e-upload-file-list"
                   style={{ border: 0, minHeight: 0 }}
                 >
-                  <span className="e-file-container">
+                  <span className="e-file-container" style={{ margin: 0 }}>
                     <span className="e-upload-progress-wrap">
                       <span className="e-progress-inner-wrap">
                         <progressbar

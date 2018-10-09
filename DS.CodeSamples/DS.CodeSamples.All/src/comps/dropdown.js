@@ -21,7 +21,7 @@ export default class DropdownDoc extends Component {
     return (
       <div className="mt-8 Comp">
         <div className="flex items-center">
-          <div className="pr-16 font-bold">Dropdown</div>
+          <div className="w-48 font-bold">Dropdown</div>
           <div className="flex-1 px-2">
             <DropDownListComponent
               placeholder="Select"

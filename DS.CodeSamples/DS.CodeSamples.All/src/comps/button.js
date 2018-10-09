@@ -12,46 +12,48 @@ export default class ButtonDoc extends React.Component {
       <div>
         <div className="mt-8 Comp">
           <div className="flex items-center">
-            <div className="pr-16 font-bold">Button</div>
+            <div className="w-48 font-bold">Button</div>
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
-
+              <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-round e-primary"
                 iconCss="e-icons e-add-icon"
               />
-            </div>
-            <div className="flex-1 px-2">
+              <span>&nbsp;</span>
+
               <ButtonComponent
-                cssClass="e-small e-round e-primary"
+                cssClass="e-round e-primary"
                 iconCss="e-icons e-add-icon"
+                disabled
               />
             </div>
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-outline">Outline</ButtonComponent>
-
+              <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-round e-outline"
                 iconCss="e-icons e-add-icon"
               />
-            </div>
-            <div className="flex-1 px-2">
+              <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-small e-round e-outline"
+                cssClass="e-round e-outline"
                 iconCss="e-icons e-add-icon"
+                disabled
               />
             </div>
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-flat">Flat</ButtonComponent>
+              <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-round e-flat"
                 iconCss="e-icons e-add-icon"
               />
-            </div>
-            <div className="flex-1 px-2">
+              <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-small e-round e-flat"
+                cssClass="e-round e-flat"
                 iconCss="e-icons e-add-icon"
+                disabled
               />
             </div>
           </div>
@@ -59,7 +61,7 @@ export default class ButtonDoc extends React.Component {
 
         <div className="mt-8 Comp">
           <div className="flex items-center">
-            <div className="pr-16 font-bold">Button</div>
+            <div className="w-48 font-bold">Button</div>
 
             <div className="flex-1 px-2">
               <ButtonComponent
@@ -68,11 +70,11 @@ export default class ButtonDoc extends React.Component {
               >
                 Play
               </ButtonComponent>
-            </div>
-            <div className="flex-1 px-2">
+              <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-small e-primary"
+                cssClass="e-primary"
                 iconCss="e-icons e-play-icon"
+                disabled
               >
                 Play
               </ButtonComponent>
@@ -85,12 +87,12 @@ export default class ButtonDoc extends React.Component {
               >
                 Open
               </ButtonComponent>
-            </div>
-            <div className="flex-1 px-2">
+              <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-small e-outline"
+                cssClass="e-outline"
                 iconCss="e-icons e-open-icon"
                 iconPosition="Right"
+                disabled
               >
                 Open
               </ButtonComponent>
@@ -103,12 +105,12 @@ export default class ButtonDoc extends React.Component {
               >
                 Open
               </ButtonComponent>
-            </div>
-            <div className="flex-1 px-2">
+              <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-small e-flat"
+                cssClass="e-flat"
                 iconCss="e-icons e-open-icon"
                 iconPosition="Right"
+                disabled
               >
                 Open
               </ButtonComponent>
