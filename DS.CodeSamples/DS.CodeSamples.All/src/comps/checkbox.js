@@ -13,21 +13,20 @@ export default class CheckboxDoc extends Component {
             <div className="flex">
               <div className="flex-1">
                 <CheckBoxComponent label="abc" checked={true} />
-              </div>
-
-              <div className="flex-1">
+                <br />
                 <CheckBoxComponent label="abc" indeterminate={true} />
               </div>
+
               <div className="flex-1">
-                <CheckBoxComponent label="abc" disabled={true} />
+                <CheckBoxComponent label="abc" />
               </div>
 
               <div className="flex-1">
-                <CheckBoxComponent
-                  label="abc"
-                  indeterminate={true}
-                  disabled={true}
-                />
+                <CheckBoxComponent label="abc" checked={true} disabled={true} />
+              </div>
+
+              <div className="flex-1">
+                <CheckBoxComponent label="abc" disabled={true} />
               </div>
             </div>
           </div>
