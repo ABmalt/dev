@@ -1,71 +1,64 @@
-import React, { Component } from "react";
-// import { Button, ButtonGroup } from "@progress/kendo-react-buttons";
+import * as React from "react";
 
 import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
-class App extends Component {
+
+import { enableRipple } from "@syncfusion/ej2-base";
+enableRipple(true);
+
+// To render Button.
+export default class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1>Buttons</h1>
+      <div>
+        <div className="mt-8 Comp">
+          <div className="flex items-center">
+            <div className="w-48 font-bold">Button</div>
+            <div className="flex-1 px-2">
+              <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-round e-primary"
+                iconCss="e-icons e-add-icon"
+              />
+              <span>&nbsp;</span>
 
-        <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent>Normal</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-outline" isPrimary>
-          Outline
-        </ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-flat e-primary">Flat</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-success">Success</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-warning">Warning</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-danger">Danger</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-info">Info</ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent
-          cssClass="e-small e-round"
-          iconCss="e-icons e-add-icon"
-          isPrimary
-        />
-        <br />
-        <br />
-        <ButtonComponent
-          cssClass="e-flat e-primary"
-          ref={scope => {
-            this.btnobj = scope;
-          }}
-          iconCss="e-icons e-play-icon"
-          isToggle
-        >
-          Play
-        </ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent
-          cssClass="e-flat e-primary"
-          iconCss="e-icons e-open-icon"
-          iconPosition="Right"
-        >
-          Open
-        </ButtonComponent>
-        <br />
-        <br />
-        <ButtonComponent cssClass="e-small">Small</ButtonComponent>
+              <ButtonComponent
+                cssClass="e-round e-primary"
+                iconCss="e-icons e-add-icon"
+                disabled
+              />
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent cssClass="e-outline">Outline</ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-round e-outline"
+                iconCss="e-icons e-add-icon"
+              />
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-round e-outline"
+                iconCss="e-icons e-add-icon"
+                disabled
+              />
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent cssClass="e-flat">Flat</ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-round e-flat"
+                iconCss="e-icons e-add-icon"
+              />
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-round e-flat"
+                iconCss="e-icons e-add-icon"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
 }
-
-export default App;
