@@ -26,10 +26,9 @@
     "@syncfusion/ej2-react-splitbuttons": "^16.3.22",
     "@syncfusion/ej2-splitbuttons": "^16.3.22",
     "ajv": "^6.5.3",
-    "malt-css": "^1.0.20181039",
-    "node-sass": "^4.9.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "malt-css": "^1.0.201810101",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-scripts": "^2.0.4"
   },
   "scripts": {
