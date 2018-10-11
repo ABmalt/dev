@@ -27,7 +27,7 @@ export default class MultiSelectDoc extends Component {
   render() {
     return (
       <div className="mt-8 Comp">
-        <div className="flex items-center">
+        <div className="sm:flex items-center">
           <div className="w-48 font-bold">MultiSelect</div>
           <div className="flex-1 px-2">
             <MultiSelectComponent

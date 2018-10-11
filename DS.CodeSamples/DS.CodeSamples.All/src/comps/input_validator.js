@@ -32,7 +32,7 @@ export default class InputValidatorDoc extends Component {
     return (
       <div>
         <div className="mt-8 Comp">
-          <div className="flex">
+          <div className="sm:flex ">
             <div className="w-48 font-bold">Validator</div>
             <div className="flex-1 px-2">
               <div className="e-float-input e-input-group">

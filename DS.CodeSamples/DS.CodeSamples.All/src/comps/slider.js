@@ -23,7 +23,7 @@ export default class SilderDoc extends Component {
   render() {
     return (
       <div className="mt-8 Comp">
-        <div className="flex items-center">
+        <div className="sm:flex items-center">
           <div className="w-48 font-bold">Slider</div>
           <div className="flex-1 text-center px-2">
             <SliderComponent cssClass="abi-css" />

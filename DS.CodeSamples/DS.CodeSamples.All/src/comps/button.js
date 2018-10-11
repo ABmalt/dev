@@ -11,7 +11,7 @@ export default class ButtonDoc extends Component {
     return (
       <div>
         <div className="mt-8 Comp">
-          <div className="flex items-center">
+          <div className="sm:flex items-center">
             <div className="w-48 font-bold">Button</div>
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
@@ -60,7 +60,7 @@ export default class ButtonDoc extends Component {
         </div>
 
         <div className="mt-8 Comp">
-          <div className="flex items-center">
+          <div className="sm:flex items-center">
             <div className="w-48 font-bold">Button</div>
 
             <div className="flex-1 px-2">
