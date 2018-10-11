@@ -10,8 +10,8 @@
     "@syncfusion/ej2-react-inputs": "16.2.52",
     "ajv": "6.5.4",
     "malt-css": "latest",
-    "react": "16.4.2",
-    "react-dom": "16.4.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
     "react-scripts": "2.0.4"
   },
   "scripts": {
