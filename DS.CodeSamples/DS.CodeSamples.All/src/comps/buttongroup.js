@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { Component } from "react";
 
 import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
 
@@ -6,7 +6,7 @@ import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 
 // To render Button.
-export default class ButtongroupDoc extends React.Component {
+export default class ButtongroupDoc extends Component {
   render() {
     return (
       <div>

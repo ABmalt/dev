@@ -13,6 +13,7 @@ import DropdownDoc from "./comps/dropdown";
 import SplitButtonDoc from "./comps/splitbutton";
 import DropDownButtonDoc from "./comps/dropdownbutton";
 import ProgressbarDoc from "./comps/progressbar";
+import SearchDoc from "./comps/search";
 
 class App extends React.Component {
   render() {
@@ -31,6 +32,7 @@ class App extends React.Component {
         <DropdownDoc />
         <MultiSelectDoc />
         <ProgressbarDoc />
+        <SearchDoc />
       </div>
     );
   }

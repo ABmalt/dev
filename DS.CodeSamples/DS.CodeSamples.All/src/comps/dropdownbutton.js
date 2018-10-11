@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, { Component } from "react";
 import { DropDownButtonComponent } from "@syncfusion/ej2-react-splitbuttons";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 
-export default class DropDownButtonDoc extends React.PureComponent {
+export default class DropDownButtonDoc extends Component {
   constructor() {
     super(...arguments);
     this.items = [

@@ -1,8 +1,8 @@
-import * as React from "react";
+import React, { Component } from "react";
 import { FormValidator } from "@syncfusion/ej2-inputs";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
-export default class InputValidatorDoc extends React.PureComponent {
+export default class InputValidatorDoc extends Component {
   constructor(props) {
     super(props);
   }

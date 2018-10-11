@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { Component } from "react";
 import {
   SplitButtonComponent,
   ItemModel,
@@ -7,7 +7,7 @@ import {
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 
-export default class SplitButtonDoc extends React.PureComponent {
+export default class SplitButtonDoc extends Component {
   constructor() {
     super(...arguments);
     this.items = [

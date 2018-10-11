@@ -1,11 +1,11 @@
-import * as React from "react";
+import React, { Component } from "react";
 import {
   MultiSelectComponent,
   CheckBoxSelection,
   Inject
 } from "@syncfusion/ej2-react-dropdowns";
 
-export default class MultiSelectDoc extends React.Component {
+export default class MultiSelectDoc extends Component {
   constructor() {
     super(...arguments);
     // define the JSON of data
