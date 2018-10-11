@@ -3,15 +3,15 @@
   "description": "sample",
   "version": "0.1.0",
   "dependencies": {
-    "@syncfusion/ej2-base": "^16.2.50",
-    "@syncfusion/ej2-buttons": "^16.2.50",
-    "@syncfusion/ej2-react-buttons": "^16.3.21",
-    "@syncfusion/ej2-react-dropdowns": "^16.2.50",
-    "ajv": "^6.5.4",
-    "malt-css": "^1.0.20181039",
+    "@syncfusion/ej2-base": "16.2.50",
+    "@syncfusion/ej2-buttons": "16.2.50",
+    "@syncfusion/ej2-react-buttons": "16.3.21",
+    "@syncfusion/ej2-react-dropdowns": "16.2.50",
+    "ajv": "6.5.4",
+    "malt-css": "latest",
     "react": "16.4.2",
     "react-dom": "16.4.2",
-    "react-scripts": "^2.0.4"
+    "react-scripts": "2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

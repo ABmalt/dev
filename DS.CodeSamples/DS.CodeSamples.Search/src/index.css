@@ -1,5 +1,6 @@
 .App {
   max-width: 555px;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
 }

@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@syncfusion/ej2-base": "^16.3.24",
-    "malt-css": "^1.0.20181088",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "@syncfusion/ej2-base": "16.3.24",
+    "ajv": "6.5.4",
+    "malt-css": "latest",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
     "react-scripts": "2.0.4"
   },
   "scripts": {
