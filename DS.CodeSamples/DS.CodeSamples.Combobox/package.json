@@ -7,7 +7,7 @@
     "@syncfusion/ej2-buttons": "16.2.50",
     "@syncfusion/ej2-react-dropdowns": "16.2.50",
     "ajv": "6.5.4",
-    "malt-css": "latest",
+    "malt-css": "^1.0.201810119",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-scripts": "2.0.4"
