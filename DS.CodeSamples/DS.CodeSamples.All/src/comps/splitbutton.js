@@ -37,7 +37,7 @@ export default class SplitButtonDoc extends Component {
   render() {
     return (
       <div className="mt-8 Comp">
-        <div className="sm:flex items-center">
+        <div className="md:flex items-center">
           <div className="w-48 font-bold">SplitButton</div>
 
           <div className="flex-1 px-2">

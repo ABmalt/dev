@@ -8,7 +8,7 @@ export default class InputDoc extends Component {
     return (
       <div>
         <div className="mt-8 Comp">
-          <div className="sm:flex ">
+          <div className="md:flex ">
             <div className="w-48 font-bold">TextBox</div>
 
             <div className="flex-1 px-2">
