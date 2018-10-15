@@ -1,8 +1,8 @@
-import * as React from "react";
+import React, { Component } from "react";
 import { CheckBoxComponent } from "@syncfusion/ej2-react-buttons";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
-class App extends React.PureComponent {
+export default class App extends Component {
   // function to handle the CheckBox change event
   onChange(args) {
     this.checkboxObj.label = "CheckBox: " + args.checked;
@@ -40,4 +40,3 @@ class App extends React.PureComponent {
     );
   }
 }
-export default App;

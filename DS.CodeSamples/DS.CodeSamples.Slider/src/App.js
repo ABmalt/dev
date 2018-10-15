@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { SliderComponent } from "@syncfusion/ej2-react-inputs";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
-class App extends Component {
+export default class App extends Component {
   constructor() {
     super(...arguments);
     // Initialize ticks with placement, largestep, smallstep
@@ -39,5 +39,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

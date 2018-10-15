@@ -1,6 +1,6 @@
-import * as React from "react";
-// import * as ReactDOM from "react-dom";
-class App extends React.Component {
+import React, { Component } from "react";
+
+export default class App extends Component {
   render() {
     return (
       <div className="App">
@@ -67,4 +67,3 @@ class App extends React.Component {
     }
   }
 }
-export default App;

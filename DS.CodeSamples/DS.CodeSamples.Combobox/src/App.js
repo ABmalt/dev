@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { ComboBoxComponent } from "@syncfusion/ej2-react-dropdowns";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
-class App extends React.PureComponent {
+export default class App extends Component {
   constructor() {
     super(...arguments);
     //define the data with category
@@ -36,5 +36,3 @@ class App extends React.PureComponent {
     );
   }
 }
-
-export default App;
