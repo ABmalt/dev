@@ -82,7 +82,7 @@ export default class ButtongroupDoc extends Component {
               </div>
             </div>
             <div className="flex-1 px-2">
-              <div className="">
+              <div className="inline-block">
                 <ButtonComponent
                   cssClass="e-flat"
                   iconCss="e-icons icon-beer"
@@ -96,8 +96,8 @@ export default class ButtongroupDoc extends Component {
                   iconCss="e-icons icon-beer"
                 />
               </div>
-
-              <div className="">
+              <span>&nbsp;</span>
+              <div className="inline-block">
                 <ButtonComponent
                   cssClass="e-flat"
                   iconCss="e-icons icon-beer"

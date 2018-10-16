@@ -1,5 +1,5 @@
 .App {
-  max-width: 555px;
+  max-width: 960px;
   margin: auto;
   font-family: Arial, sans-serif;
   padding: 1rem;
@@ -12,11 +12,9 @@
   font-style: normal;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+.e-beer-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -28,50 +26,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-beer:before,
-.e-a:before,
-.e-b:before,
-.e-c:before,
-.e-input-picture:before,
-.e-input-calendar:before,
-.e-btn-icons,
-.e-paste::before,
-.e-paste-special::before,
-.e-paste-formula::before,
-.e-paste-hyperlink::before,
-.e-paste::before,
-.e-paste-special::before,
-.e-paste-formula::before,
-.e-paste-hyperlink::before,
-.e-logout::before,
-.e-dashboard::before,
-.e-profile::before,
-.e-notifications::before,
-.e-settings::before,
-.e-logout::before,
-.e-dashboard::before,
-.e-profile::before,
-.e-notifications::before,
-.e-settings::before,
-.e-dropdown-btn .e-ddb-icons,
-.e-dropdown-popup .e-ddb-icons,
-.e-logout::before,
-.e-dashboard::before,
-.e-profile::before,
-.e-notifications::before,
-.e-settings::before,
-.e-logout::before,
-.e-dashboard::before,
-.e-profile::before,
-.e-notifications::before,
-.e-settings::before,
-.e-play-icon::before,
-.e-pause-icon::before,
-.e-open-icon::before,
-.e-add-icon::before {
+.e-beer-icon::before {
   content: "\e900";
   font-family: "icomoon" !important;
-}
-.e-icons {
-  font-family: e-icons;
 }

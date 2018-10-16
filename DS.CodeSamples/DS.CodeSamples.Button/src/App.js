@@ -6,55 +6,130 @@ import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 
 // To render Button.
-export default class App extends Component {
+export default class ButtonDoc extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
+        <h1>Buttons</h1>
         <div className="mt-8 Comp">
-          <div className="">
-            <div className="w-48 font-bold">Button</div>
-            <div className="p-4">
+          <div className="md:flex">
+            <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
               <span>&nbsp;</span>
-              <ButtonComponent
-                cssClass="e-round e-primary"
-                iconCss="e-icons e-add-icon"
-              />
-              <span>&nbsp;</span>
-
-              <ButtonComponent
-                cssClass="e-round e-primary"
-                iconCss="e-icons e-add-icon"
-                disabled
-              />
+              <ButtonComponent cssClass="e-primary" disabled>
+                Primary
+              </ButtonComponent>
             </div>
-            <div className="p-4">
+            <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-outline">Outline</ButtonComponent>
               <span>&nbsp;</span>
+              <ButtonComponent cssClass="e-outline" disabled>
+                Outline
+              </ButtonComponent>
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent cssClass="e-flat">Flat</ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent cssClass="e-flat" disabled>
+                Flat
+              </ButtonComponent>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 Comp">
+          <div className="md:flex">
+            <div className="flex-1 px-2">
               <ButtonComponent
-                cssClass="e-round e-outline"
-                iconCss="e-icons e-add-icon"
+                cssClass="e-round e-primary"
+                iconCss="e-icons e-beer-icon"
               />
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-outline"
-                iconCss="e-icons e-add-icon"
+                cssClass="e-round e-primary"
+                iconCss="e-icons e-beer-icon"
                 disabled
               />
             </div>
-            <div className="p-4">
-              <ButtonComponent cssClass="e-flat">Flat</ButtonComponent>
-              <span>&nbsp;</span>
+            <div className="flex-1 px-2">
               <ButtonComponent
-                cssClass="e-round e-flat"
-                iconCss="e-icons e-add-icon"
+                cssClass="e-round e-outline"
+                iconCss="e-icons e-beer-icon"
               />
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-flat"
-                iconCss="e-icons e-add-icon"
+                cssClass="e-round e-outline"
+                iconCss="e-icons e-beer-icon"
                 disabled
               />
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent
+                cssClass="e-round e-flat"
+                iconCss="e-icons e-beer-icon"
+              />
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-round e-flat"
+                iconCss="e-icons e-beer-icon"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 Comp">
+          <div className="md:flex">
+            <div className="flex-1 px-2">
+              <ButtonComponent
+                cssClass="e-primary"
+                iconCss="e-icons e-beer-icon"
+              >
+                Play
+              </ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-primary"
+                iconCss="e-icons e-beer-icon"
+                disabled
+              >
+                Play
+              </ButtonComponent>
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent
+                cssClass="e-outline"
+                iconCss="e-icons e-beer-icon"
+                iconPosition="Right"
+              >
+                Open
+              </ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-outline"
+                iconCss="e-icons e-beer-icon"
+                iconPosition="Right"
+                disabled
+              >
+                Open
+              </ButtonComponent>
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent
+                cssClass="e-flat"
+                iconCss="e-icons e-beer-icon"
+                iconPosition="Right"
+              >
+                Open
+              </ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent
+                cssClass="e-flat"
+                iconCss="e-icons e-beer-icon"
+                iconPosition="Right"
+                disabled
+              >
+                Open
+              </ButtonComponent>
             </div>
           </div>
         </div>

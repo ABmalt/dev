@@ -21,7 +21,6 @@ export default class ButtonDoc extends Component {
                 iconCss="e-icons e-add-icon"
               />
               <span>&nbsp;</span>
-
               <ButtonComponent
                 cssClass="e-round e-primary"
                 iconCss="e-icons e-add-icon"
@@ -61,7 +60,7 @@ export default class ButtonDoc extends Component {
 
         <div className="mt-8 Comp">
           <div className="md:flex items-center">
-            <div className="w-48 font-bold">Button</div>
+            <div className="w-48 font-bold">&nbsp;</div>
 
             <div className="flex-1 px-2">
               <ButtonComponent

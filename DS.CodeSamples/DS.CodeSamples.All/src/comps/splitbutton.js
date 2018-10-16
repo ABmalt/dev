@@ -60,14 +60,12 @@ export default class SplitButtonDoc extends Component {
               cssClass="e-outline"
               items={this.items}
               content="Paste"
-              iconCss="e-btn-icons e-paste"
             />
             <span>&nbsp;</span>
             <SplitButtonComponent
               cssClass="e-outline"
               items={this.items}
               content="Paste"
-              iconCss="e-btn-icons e-paste"
               disabled
             />
           </div>
@@ -76,14 +74,12 @@ export default class SplitButtonDoc extends Component {
               cssClass="e-flat"
               items={this.items}
               content="Paste"
-              iconCss="e-btn-icons e-paste"
             />
             <span>&nbsp;</span>
             <SplitButtonComponent
               cssClass="e-flat"
               items={this.items}
               content="Paste"
-              iconCss="e-btn-icons e-paste"
               disabled
             />
           </div>
