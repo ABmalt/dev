@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { Component } from "react";
 
 import SwitchDoc from "./comps/switch";
 import CheckboxDoc from "./comps/checkbox";
@@ -15,7 +15,7 @@ import DropDownButtonDoc from "./comps/dropdownbutton";
 import ProgressbarDoc from "./comps/progressbar";
 import SearchDoc from "./comps/search";
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32 mb-64 pb-64">

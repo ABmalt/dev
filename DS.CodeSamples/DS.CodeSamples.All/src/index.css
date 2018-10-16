@@ -75,7 +75,7 @@
   font-family: e-icons;
 }
 
-.e-progress-btn {
+button.e-progress-btn {
   width: 100%;
   padding: 0;
   height: 4px;
