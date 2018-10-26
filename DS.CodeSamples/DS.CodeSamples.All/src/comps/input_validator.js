@@ -35,11 +35,10 @@ export default class InputValidatorDoc extends Component {
           <div className="md:flex ">
             <div className="w-48 font-bold">Validator</div>
             <div className="flex-1 px-2">
-              <div className="e-float-input e-input-group">
+              <div className="e-float-input">
                 <input type="text" required />
                 <span className="e-float-line" />
-                <label className="e-float-text">Country</label>
-                <span className="e-input-group-icon e-spin-down" />
+                <label className="e-float-text">Name</label>
               </div>
             </div>
 
@@ -51,6 +50,7 @@ export default class InputValidatorDoc extends Component {
                     id="name1"
                     name="name1"
                     data-msg-containerid="nameError1"
+                    required
                   />
                   <span className="e-float-line" />
                   <label className="e-float-text" htmlFor="name1">
@@ -63,7 +63,7 @@ export default class InputValidatorDoc extends Component {
 
             <div className="flex-1 px-2">
               <div id="iv2">
-                <div className="e-float-input">
+                <div className="e-float-input e-input-group">
                   <input
                     type="text"
                     id="name2"
@@ -75,6 +75,7 @@ export default class InputValidatorDoc extends Component {
                   <label className="e-float-text" htmlFor="name2">
                     Name
                   </label>
+                  <span className="e-input-group-icon e-input-picture" />
                 </div>
                 <div id="nameError2" />
               </div>

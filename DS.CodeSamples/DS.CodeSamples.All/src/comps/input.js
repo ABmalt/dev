@@ -12,25 +12,50 @@ export default class InputDoc extends Component {
             <div className="w-48 font-bold">TextBox</div>
 
             <div className="flex-1 px-2">
-              <TextBoxComponent placeholder="Name" />
+              <TextBoxComponent
+                placeholder="Name"
+                floatLabelType="Auto"
+                showClearButton={true}
+              />
+            </div>
+            <div className="flex-1 px-2">
+              <div className="e-float-input e-input-group">
+                <input required={true} type="text" />
+                <span className="e-float-line" />
+                <label className="e-float-text">With Icon</label>
+                <span className="e-input-group-icon e-input-calendar" />
+              </div>
+            </div>
+            <div className="flex-1 px-2">
+              <TextBoxComponent
+                placeholder="Disabled"
+                floatLabelType="Auto"
+                disabled={true}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 Comp">
+          <div className="md:flex ">
+            <div className="w-48 font-bold">TextBox</div>
+
+            <div className="flex-1 px-2">
+              <textarea className="e-input" placeholder="Address" />
             </div>
 
             <div className="flex-1 px-2">
-              <div className="e-input-group">
-                <input className="e-input" type="text" placeholder="Date" />
-                <span className="e-input-group-icon e-input-calendar" />
+              <div className="e-float-input">
+                <textarea required />
+                <span className="e-float-line" />
+                <label className="e-float-text">Address</label>
               </div>
             </div>
 
             <div className="flex-1 px-2">
-              <div className="e-input-group e-float-icon---left e-disabled">
-                <span className="e-input-group-icon e-input-picture" />
+              <div className="e-input-group e-disabled">
                 <div className="e-input-in-wrap">
-                  <input
-                    className="e-input"
-                    type="text"
-                    placeholder="Upload Picture"
-                  />
+                  <span className="e-input-group-icon e-input-calendar" />
+                  <input className="e-input" type="text" placeholder="Text" />
                 </div>
               </div>
             </div>

@@ -46,7 +46,7 @@
 .e-pause-icon::before,
 .e-open-icon::before,
 .e-add-icon::before {
-  content: "\e886";
+  content: "\e7ff";
   font-family: "Material Icons" !important;
 }
 

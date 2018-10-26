@@ -6,7 +6,7 @@
 }
 
 .group_work::before {
-  content: "\e886";
+  content: "\e7ff";
   font-size: inherit;
 }
 .e-btn .e-btn-icon {

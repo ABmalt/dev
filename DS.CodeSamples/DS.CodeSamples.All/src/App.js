@@ -23,12 +23,12 @@ class App extends Component {
         <CheckboxDoc />
         <RadioDoc />
         <SliderDoc />
-        <InputDoc />
-        <InputValidatorDoc />
         <ButtonDoc />
         <ButtongroupDoc />
         <SplitButtonDoc />
         <DropDownButtonDoc />
+        <InputDoc />
+        <InputValidatorDoc />
         <DropdownDoc />
         <MultiSelectDoc />
         <ProgressbarDoc />
