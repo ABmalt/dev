@@ -5,28 +5,10 @@
   padding: 1rem;
 }
 
-@font-face {
-  font-family: "icomoon";
-  src: url("icomoon.woff?hcyiu0") format("woff");
-  font-weight: normal;
-  font-style: normal;
+.group_work::before {
+  content: "\e886";
+  font-size: inherit;
 }
-
-.e-beer-icon {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.e-beer-icon::before {
-  content: "\e900";
-  font-family: "icomoon" !important;
+.e-btn .e-btn-icon {
+  font-size: inherit;
 }

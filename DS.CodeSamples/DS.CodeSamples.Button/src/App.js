@@ -41,36 +41,36 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-round e-primary"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
               />
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-round e-primary"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 disabled
               />
             </div>
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-round e-outline"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
               />
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-round e-outline"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 disabled
               />
             </div>
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-round e-flat"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
               />
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-round e-flat"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 disabled
               />
             </div>
@@ -82,14 +82,14 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
               >
                 Play
               </ButtonComponent>
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 disabled
               >
                 Play
@@ -98,7 +98,7 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 iconPosition="Right"
               >
                 Open
@@ -106,7 +106,7 @@ export default class ButtonDoc extends Component {
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 iconPosition="Right"
                 disabled
               >
@@ -116,7 +116,7 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 iconPosition="Right"
               >
                 Open
@@ -124,7 +124,7 @@ export default class ButtonDoc extends Component {
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="e-icons e-beer-icon"
+                iconCss="material-icons group_work"
                 iconPosition="Right"
                 disabled
               >
