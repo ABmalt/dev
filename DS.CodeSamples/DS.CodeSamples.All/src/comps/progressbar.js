@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 // import {ProgressButtonComponent} from "@syncfusion/ej2-react-splitbuttons";
 
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
-
 export default class ProgressbarDoc extends Component {
   render() {
     return (

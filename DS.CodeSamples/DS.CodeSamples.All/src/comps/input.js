@@ -3,8 +3,6 @@ import {
   TextBoxComponent,
   MaskedTextBoxComponent
 } from "@syncfusion/ej2-react-inputs";
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
 
 export default class InputDoc extends Component {
   render() {

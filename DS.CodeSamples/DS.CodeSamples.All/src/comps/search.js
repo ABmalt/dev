@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { AutoCompleteComponent } from "@syncfusion/ej2-react-dropdowns";
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
 
 export default class SearchDoc extends Component {
   constructor() {

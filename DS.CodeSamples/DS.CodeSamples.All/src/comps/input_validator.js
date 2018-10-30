@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
-
 import { FormValidator } from "@syncfusion/ej2-inputs";
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
+
 export default class InputValidatorDoc extends Component {
   rendereComplete() {
     this.formValidator1 = {

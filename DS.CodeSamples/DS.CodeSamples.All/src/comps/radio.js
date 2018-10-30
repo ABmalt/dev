@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { RadioButtonComponent } from "@syncfusion/ej2-react-buttons";
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
+
 export default class RadioDoc extends Component {
   render() {
     return (

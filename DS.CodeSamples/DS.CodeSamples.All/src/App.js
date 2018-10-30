@@ -14,7 +14,8 @@ import SplitButtonDoc from "./comps/splitbutton";
 import DropDownButtonDoc from "./comps/dropdownbutton";
 import ProgressbarDoc from "./comps/progressbar";
 import SearchDoc from "./comps/search";
-
+import { enableRipple } from "@syncfusion/ej2-base";
+enableRipple(true);
 class App extends Component {
   render() {
     return (

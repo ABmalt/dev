@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { SwitchComponent } from "@syncfusion/ej2-react-buttons";
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
 
 export default class SwitchDoc extends Component {
   render() {

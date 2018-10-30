@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { SliderComponent } from "@syncfusion/ej2-react-inputs";
-import { enableRipple } from "@syncfusion/ej2-base";
-enableRipple(true);
 
 export default class SilderDoc extends Component {
   constructor() {
