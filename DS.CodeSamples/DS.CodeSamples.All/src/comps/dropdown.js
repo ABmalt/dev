@@ -15,7 +15,6 @@ export default class DropdownDoc extends Component {
     // maps the appropriate column to fields property
     this.fields1 = { text: "Game", value: "Id" };
     this.fields2 = { text: "Game", value: "Id", groupBy: "group" };
-    this.fields3 = { text: "Game", value: "Id", iconCss: "icss" };
   }
   render() {
     return (
@@ -31,18 +30,13 @@ export default class DropdownDoc extends Component {
           </div>
           <div className="flex-1 px-2">
             <DropDownListComponent
-              placeholder="Select"
+              placeholder="Groups"
               dataSource={this.list}
               fields={this.fields2}
-              enabled={false}
             />
           </div>
           <div className="flex-1 px-2">
-            <DropDownListComponent
-              placeholder="Select"
-              dataSource={this.list}
-              fields={this.fields3}
-            />
+            <DropDownListComponent placeholder="Disabled" enabled={false} />
           </div>
         </div>
       </div>

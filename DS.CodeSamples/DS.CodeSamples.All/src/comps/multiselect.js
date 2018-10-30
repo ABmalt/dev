@@ -40,16 +40,6 @@ export default class MultiSelectDoc extends Component {
           <div className="flex-1 px-2">
             <MultiSelectComponent
               dataSource={this.sports}
-              mode="Default"
-              fields={this.fields}
-              placeholder="Default"
-              enabled={false}
-            />
-          </div>
-
-          <div className="flex-1 px-2">
-            <MultiSelectComponent
-              dataSource={this.sports}
               mode="CheckBox"
               fields={this.fields}
               placeholder="CheckBoxes"
@@ -57,6 +47,14 @@ export default class MultiSelectDoc extends Component {
             >
               <Inject services={[CheckBoxSelection]} />
             </MultiSelectComponent>
+          </div>
+
+          <div className="flex-1 px-2">
+            <MultiSelectComponent
+              mode="Default"
+              placeholder="Disabled"
+              enabled={false}
+            />
           </div>
         </div>
       </div>

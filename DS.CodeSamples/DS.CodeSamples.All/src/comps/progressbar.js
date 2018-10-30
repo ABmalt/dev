@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import {
-  ProgressButtonComponent,
-  ProgressEventArgs
-} from "@syncfusion/ej2-react-splitbuttons";
+// import {ProgressButtonComponent} from "@syncfusion/ej2-react-splitbuttons";
 
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);

@@ -1,11 +1,10 @@
 import React, { Component } from "react";
+import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
+
 import { FormValidator } from "@syncfusion/ej2-inputs";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 export default class InputValidatorDoc extends Component {
-  constructor(props) {
-    super(props);
-  }
   rendereComplete() {
     this.formValidator1 = {
       rules: {
@@ -34,13 +33,6 @@ export default class InputValidatorDoc extends Component {
         <div className="mt-8 Comp">
           <div className="md:flex ">
             <div className="w-48 font-bold">Validator</div>
-            <div className="flex-1 px-2">
-              <div className="e-float-input">
-                <input type="text" required />
-                <span className="e-float-line" />
-                <label className="e-float-text">Name</label>
-              </div>
-            </div>
 
             <div className="flex-1 px-2">
               <div id="iv1">
@@ -57,7 +49,7 @@ export default class InputValidatorDoc extends Component {
                     Name
                   </label>
                 </div>
-                <div id="nameError1" />
+                <div id="nameError1" className="pl-2" />
               </div>
             </div>
 
@@ -77,8 +69,15 @@ export default class InputValidatorDoc extends Component {
                   </label>
                   <span className="e-input-group-icon e-input-picture" />
                 </div>
-                <div id="nameError2" />
+                <div id="nameError2" className="pl-2" />
               </div>
+            </div>
+            <div className="flex-1 px-2">
+              <TextBoxComponent
+                placeholder="Disabled"
+                floatLabelType="Auto"
+                disabled={true}
+              />
             </div>
           </div>
         </div>

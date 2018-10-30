@@ -26,6 +26,7 @@
     "@syncfusion/ej2-react-splitbuttons": "16.3.24",
     "@syncfusion/ej2-splitbuttons": "16.3.24",
     "@types/react": "^16.4.17",
+    "@types/react-dom": "^16.0.9",
     "ajv": "6.5.3",
     "malt-css": "^1.0.201810119",
     "react": "16.5.2",

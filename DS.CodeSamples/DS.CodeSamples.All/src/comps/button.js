@@ -17,12 +17,12 @@ export default class ButtonDoc extends Component {
               <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-primary"
+                cssClass="e-primary"
                 iconCss="e-icons e-add-icon"
               />
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-primary"
+                cssClass="e-primary"
                 iconCss="e-icons e-add-icon"
                 disabled
               />
@@ -31,12 +31,12 @@ export default class ButtonDoc extends Component {
               <ButtonComponent cssClass="e-outline">Outline</ButtonComponent>
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-outline"
+                cssClass="e-outline"
                 iconCss="e-icons e-add-icon"
               />
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-outline"
+                cssClass="e-outline"
                 iconCss="e-icons e-add-icon"
                 disabled
               />
@@ -44,13 +44,10 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-flat">Flat</ButtonComponent>
               <span>&nbsp;</span>
-              <ButtonComponent
-                cssClass="e-round e-flat"
-                iconCss="e-icons e-add-icon"
-              />
+              <ButtonComponent cssClass="e-flat" iconCss="e-icons e-add-icon" />
               <span>&nbsp;</span>
               <ButtonComponent
-                cssClass="e-round e-flat"
+                cssClass="e-flat"
                 iconCss="e-icons e-add-icon"
                 disabled
               />

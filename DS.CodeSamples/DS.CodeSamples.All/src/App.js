@@ -27,8 +27,8 @@ class App extends Component {
         <ButtongroupDoc />
         <SplitButtonDoc />
         <DropDownButtonDoc />
-        <InputDoc />
         <InputValidatorDoc />
+        <InputDoc />
         <DropdownDoc />
         <MultiSelectDoc />
         <ProgressbarDoc />
