@@ -4,3 +4,17 @@
   font-family: Arial, sans-serif;
   padding: 1rem;
 }
+
+.e-MI::before {
+  font-family: "Material Icons" !important;
+}
+.e-account_box::before {
+  content: "\e851";
+}
+.e-btn .e-btn-icon,
+.e-btn-group .e-btn-icon {
+  font-size: inherit;
+}
+.e-icons {
+  font-family: e-icons;
+}
