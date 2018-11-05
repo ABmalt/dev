@@ -33,7 +33,6 @@ export default class SilderDoc extends Component {
               max={100}
               step={5}
               ticks={this.defaultTicks}
-              showButtons={true}
               tooltip={this.defaultTooltip}
             />
           </div>
