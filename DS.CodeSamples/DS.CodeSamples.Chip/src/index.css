@@ -1,0 +1,64 @@
+.App {
+  max-width: 555px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+.e-MI::before {
+  font-family: "Material Icons" !important;
+}
+.e-account_box::before {
+  content: "\e851";
+}
+.e-btn .e-btn-icon,
+.e-btn-group .e-btn-icon {
+  font-size: inherit;
+}
+.e-icons {
+  font-family: e-icons;
+}
+
+.md-chip {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 0 12px;
+  border-radius: 32px;
+  font-size: 13px;
+}
+.md-chip.md-chip-hover:hover {
+  background: #ccc;
+}
+
+.md-chip-clickable {
+  cursor: pointer;
+}
+
+.md-chip {
+  height: 32px;
+  line-height: 32px;
+}
+
+.md-chip-remove {
+  display: inline-block;
+  background: #aaa;
+  border: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 -4px 0 4px;
+  cursor: pointer;
+  font: inherit;
+  line-height: 20px;
+}
+.md-chip-remove:after {
+  color: #e0e0e0;
+  content: "x";
+}
+.md-chip-remove:hover {
+  background: #999;
+}
+.md-chip-remove:active {
+  background: #777;
+}

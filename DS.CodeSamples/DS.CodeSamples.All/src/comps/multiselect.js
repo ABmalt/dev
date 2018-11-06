@@ -12,13 +12,6 @@ export default class MultiSelectDoc extends Component {
     this.sports = [
       { Id: "Game1", Sports: "American Football" },
       { Id: "Game2", Sports: "Badminton" },
-      { Id: "Game3", Sports: "Basketball" },
-      { Id: "Game4", Sports: "Cricket" },
-      { Id: "Game5", Sports: "Football" },
-      { Id: "Game6", Sports: "Golf" },
-      { Id: "Game7", Sports: "Hockey" },
-      { Id: "Game8", Sports: "Rugby" },
-      { Id: "Game9", Sports: "Snooker" },
       { Id: "Game10", Sports: "Tennis" }
     ];
     // maps the appropriate column to fields property
