@@ -21,6 +21,7 @@ export default class ComboBoxDoc extends Component {
           <div className="w-48 font-bold">ComboBox</div>
           <div className="flex-1 px-2">
             <ComboBoxComponent
+              cssClass="malt-combobox"
               dataSource={this.list}
               fields={this.fields1}
               placeholder="Select"
@@ -28,6 +29,7 @@ export default class ComboBoxDoc extends Component {
           </div>
           <div className="flex-1 px-2">
             <ComboBoxComponent
+              cssClass="malt-combobox"
               dataSource={this.list}
               fields={this.fields2}
               placeholder="Select"
@@ -35,6 +37,7 @@ export default class ComboBoxDoc extends Component {
           </div>
           <div className="flex-1 px-2">
             <ComboBoxComponent
+              cssClass="malt-combobox"
               dataSource={this.list}
               placeholder="Select"
               enabled={false}

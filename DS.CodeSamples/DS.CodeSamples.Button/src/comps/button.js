@@ -6,9 +6,9 @@ export default class ButtonDoc extends Component {
   render() {
     return (
       <div>
-        <div className="w-48 font-bold">Button</div>
         <div className="mt-8 Comp">
           <div className="md:flex items-center">
+            <div className="w-48 font-bold">Button</div>
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-primary">Primary</ButtonComponent>
               <span>&nbsp;</span>
@@ -53,6 +53,8 @@ export default class ButtonDoc extends Component {
 
         <div className="mt-8 Comp">
           <div className="md:flex items-center">
+            <div className="w-48 font-bold">&nbsp;</div>
+
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-primary"

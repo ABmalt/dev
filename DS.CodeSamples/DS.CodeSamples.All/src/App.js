@@ -18,16 +18,17 @@ import SplitButtonDoc from "./comps/splitbutton";
 import DropDownButtonDoc from "./comps/dropdownbutton";
 import ComboBoxDoc from "./comps/combobox";
 import MenuDoc from "./comps/menu";
-import ModalDoc from "./comps/modal";
+// import ModalDoc from "./comps/modal";
 import ProgressbarDoc from "./comps/progressbar";
 import SearchDoc from "./comps/search";
 import ToolbarDoc from "./comps/toolbar";
+import TooltipDoc from "./comps/tooltip";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
 class App extends Component {
   render() {
     return (
-      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32 mb-64 pb-64">
+      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32 mb-32 pb-32">
         <SwitchDoc />
         <CheckboxDoc />
         <RadioDoc />
@@ -38,18 +39,19 @@ class App extends Component {
         <DropDownButtonDoc />
         <InputValidatorDoc />
         <InputDoc />
+        <SearchDoc />
+        <AutoCompleteDoc />
         <DropdownDoc />
         <ComboBoxDoc />
         <MultiSelectDoc />
-        <ProgressbarDoc />
-        <SearchDoc />
-        <AutoCompleteDoc />
+        <ChipDoc />
         <AccordionDoc />
         <CardDoc />
-        <ChipDoc />
         <MenuDoc />
-        <ModalDoc />
+        {/* <ModalDoc /> */}
         <ToolbarDoc />
+        <TooltipDoc />
+        <ProgressbarDoc />
       </div>
     );
   }

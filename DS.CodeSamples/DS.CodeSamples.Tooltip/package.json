@@ -1,0 +1,27 @@
+{
+  "name": "tooltip",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-base": "16.3.30",
+    "@syncfusion/ej2-react-popups": "16.3.30",
+    "malt-css": "^1.0.20181164",
+    "react": "16.5.1",
+    "react-dom": "16.5.1",
+    "react-scripts": "2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

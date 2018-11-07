@@ -24,6 +24,7 @@ export default class MultiSelectDoc extends Component {
           <div className="w-48 font-bold">MultiSelect</div>
           <div className="flex-1 px-2">
             <MultiSelectComponent
+              cssClass="malt-multiselect"
               dataSource={this.sports}
               mode="Default"
               fields={this.fields}
@@ -32,6 +33,7 @@ export default class MultiSelectDoc extends Component {
           </div>
           <div className="flex-1 px-2">
             <MultiSelectComponent
+              cssClass="malt-multiselect"
               dataSource={this.sports}
               mode="CheckBox"
               fields={this.fields}
@@ -44,6 +46,7 @@ export default class MultiSelectDoc extends Component {
 
           <div className="flex-1 px-2">
             <MultiSelectComponent
+              cssClass="malt-multiselect"
               mode="Default"
               placeholder="Disabled"
               enabled={false}

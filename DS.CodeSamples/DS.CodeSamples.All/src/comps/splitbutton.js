@@ -4,7 +4,7 @@ import { SplitButtonComponent } from "@syncfusion/ej2-react-splitbuttons";
 
 export default class SplitButtonDoc extends Component {
   constructor() {
-    super(...arguments);
+    super();
     this.items = [
       {
         text: "Paste"

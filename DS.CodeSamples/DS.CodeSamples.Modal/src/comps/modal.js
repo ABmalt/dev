@@ -7,14 +7,12 @@ export default class ModalDoc extends Component {
     this.state = {
       hideDialog: false
     };
+    this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
     this.setState({ hideDialog: true });
   }
-
-  dialogClose = () => {
-    this.setState({ hideDialog: false });
-  };
+  // dialogClose() {this.setState({ hideDialog: false });}
   render() {
     return (
       <div className="mt-8 Comp">
@@ -22,22 +20,15 @@ export default class ModalDoc extends Component {
           <div className="w-48 font-bold">Modal</div>
 
           <div className="flex-1">
-            <button
-              className="e-control e-btn"
-              id="targetButton1"
-              role="button"
-              onClick={(this.handleClick = this.handleClick.bind(this))}
-            >
+            <button className="e-control e-btn" onClick={this.handleClick}>
               Open
             </button>
 
             <DialogComponent
-              width="250px"
+              width="450px"
               content="This is a Dialog with content"
-              target=".Comp"
               visible={this.state.hideDialog}
-              close={this.dialogClose}
-              ref={dialog => (this.dialogInstance = dialog)}
+              // close={this.dialogClose}
             />
           </div>
         </div>

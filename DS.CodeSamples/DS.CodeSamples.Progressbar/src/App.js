@@ -1,25 +1,15 @@
 import React, { Component } from "react";
-import {
-  ProgressButtonComponent,
-  ProgressEventArgs
-} from "@syncfusion/ej2-react-splitbuttons";
 
+import ProgressbarDoc from "./comps/progressbar";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
-
-export default class App extends React.Component {
-  begin(args) {
-    args.step = 20;
-  }
-
+class App extends Component {
   render() {
     return (
-      <ProgressButtonComponent
-        content="Start"
-        enableProgress
-        begin={this.begin}
-        cssClass="e-hide-spinner"
-      />
+      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32 mb-64 pb-64">
+        <ProgressbarDoc />
+      </div>
     );
   }
 }
+export default App;

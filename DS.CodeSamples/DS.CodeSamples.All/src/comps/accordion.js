@@ -1,61 +1,98 @@
 import React, { Component } from "react";
+
 import {
   AccordionComponent,
-  AccordionItemDirective,
-  AccordionItemsDirective
+  AccordionItemsDirective,
+  AccordionItemDirective
 } from "@syncfusion/ej2-react-navigations";
 
 export default class AccordionDoc extends Component {
-  content0() {
-    return (
-      <div>
-        Microsoft ASP.NET is a set of technologies in the Microsoft .NET
-        Framework for building Web applications and XML Web services.
-      </div>
-    );
-  }
-  content1() {
-    return (
-      <div>
-        The Model-View-Controller (MVC) architectural pattern separates an
-        application into three main components: the model, the view, and the
-        controller.
-      </div>
-    );
-  }
-  content2() {
-    return (
-      <div>
-        JavaScript (JS) is an interpreted computer programming language.It was
-        originally implemented as part of web browsers so that client-side
-        scripts could interact with the user, control the browser, communicate
-        asynchronously, and alter the document content that was displayed.
-      </div>
-    );
-  }
   render() {
     return (
       <div className="mt-8 Comp">
-        <div className="md:flex items-center">
+        <div className="md:flex">
           <div className="w-48 font-bold">Accordion</div>
-
-          <div className="flex-1">
+          <div className="flex-1 px-2">
             <AccordionComponent>
               <AccordionItemsDirective>
                 <AccordionItemDirective
-                  expanded="true"
-                  header="Content 0"
-                  content={this.content0}
+                  header="Video"
+                  content="<div>video</div>"
                 />
                 <AccordionItemDirective
-                  header="Content 1"
-                  content={this.content1}
+                  header="Music"
+                  content="<div>music</div>"
                 />
                 <AccordionItemDirective
-                  header="Content 2"
-                  content={this.content2}
+                  header="Images"
+                  content="<div>images</div>"
                 />
               </AccordionItemsDirective>
+            </AccordionComponent>
+          </div>
+
+          <div className="flex-1 px-2">
+            <AccordionComponent expandMode="Single">
+              <AccordionItemsDirective>
+                <AccordionItemDirective
+                  header="Video"
+                  content="<div>video</div>"
+                />
+                <AccordionItemDirective
+                  header="Music"
+                  content="<div>music</div>"
+                />
+                <AccordionItemDirective
+                  header="Images"
+                  content="<div>images</div>"
+                />
+              </AccordionItemsDirective>
+            </AccordionComponent>
+          </div>
+          <div className="flex-1 px-2">
+            <AccordionComponent expandMode="Multiple">
+              <div>
+                <div>
+                  <div>
+                    <span
+                      className="material_icons account_circle mr-2"
+                      style={{ verticalAlign: -3 + "px" }}
+                    />
+                    Section A
+                  </div>
+                </div>
+                <div className="pl-4">
+                  <div>Content A</div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <span
+                      className="material_icons account_circle mr-2"
+                      style={{ verticalAlign: -3 + "px" }}
+                    />
+                    Section B
+                  </div>
+                </div>
+                <div className="pl-4">
+                  <div>Content B</div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <span
+                      className="material_icons account_circle mr-2"
+                      style={{ verticalAlign: -3 + "px" }}
+                    />
+                    Section C
+                  </div>
+                </div>
+                <div className="pl-4">
+                  <div>Content C</div>
+                </div>
+              </div>
             </AccordionComponent>
           </div>
         </div>

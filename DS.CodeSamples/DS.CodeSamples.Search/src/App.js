@@ -1,30 +1,15 @@
 import React, { Component } from "react";
-import { AutoCompleteComponent } from "@syncfusion/ej2-react-dropdowns";
+
+import SearchDoc from "./comps/search";
 import { enableRipple } from "@syncfusion/ej2-base";
 enableRipple(true);
-
-export default class App extends Component {
-  constructor() {
-    super(...arguments);
-    // define the array of string
-    this.sportsData = ["Snooker", "Tennis"];
-  }
+class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="">
-          <div className="mt-12 font-bold">Search</div>
-          <div className="my-12">
-            <AutoCompleteComponent placeholder="Search" />
-          </div>
-          <div className="my-12">
-            <AutoCompleteComponent
-              dataSource={this.sportsData}
-              placeholder="AutoComplete"
-            />
-          </div>
-        </div>
+      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32 mb-64 pb-64">
+        <SearchDoc />
       </div>
     );
   }
 }
+export default App;

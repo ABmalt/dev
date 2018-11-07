@@ -75,3 +75,7 @@ button.e-progress-btn {
 .e-progress-btn .e-progress {
   background-color: #b11f24;
 }
+
+.e-card-image {
+  background-image: url("https://ej2.syncfusion.com/react/documentation/samples/card/card_img-cs1/sample.jpg");
+}
