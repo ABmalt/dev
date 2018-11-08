@@ -1,0 +1,12 @@
+.App {
+  max-width: 555px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+.e-icons::before {
+  font-family: "e-icons" !important;
+}
+.e-plus-icon::before {
+  content: "\e823";
+}
