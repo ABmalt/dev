@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { AutoCompleteComponent } from "@syncfusion/ej2-react-dropdowns";
 
 export default class SearchDoc extends Component {
+  list = ["Badminton", "Basketball", "Tennis"];
   noRecordsTemplate = "<span></span>";
 
   render() {
@@ -21,14 +22,17 @@ export default class SearchDoc extends Component {
           <div className="flex-1 px-2">
             <AutoCompleteComponent
               cssClass="malt-searchbar"
-              placeholder="Search"
-              popupHeight="0"
-              popupWidth="0"
-              noRecordsTemplate={this.noRecordsTemplate}
+              placeholder="Autocomplete"
+              dataSource={this.list}
+              autofill={true}
             />
           </div>
           <div className="flex-1 px-2">
-            <AutoCompleteComponent cssClass="malt-searchbar" enabled={false} />
+            <AutoCompleteComponent
+              cssClass="malt-searchbar"
+              placeholder="Disabled"
+              enabled={false}
+            />
           </div>
         </div>
       </div>
