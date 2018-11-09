@@ -7,15 +7,11 @@ export default class TooltipDoc extends Component {
         <div className="md:flex items-center">
           <div className="w-48 font-bold">Tooltip</div>
           <div className="flex-1">
-            <TooltipComponent
-              content="Lets go green!"
-              style={{
-                display: "inline-block",
-                margin: "60px"
-              }}
-            >
-              <div>Tooltip</div>
-            </TooltipComponent>
+            Lorem ipsum{" "}
+            <TooltipComponent content="Lets go green!" className="inline-block">
+              <strong>TOOLTIP</strong>
+            </TooltipComponent>{" "}
+            adipisicing elit.
           </div>
         </div>
       </div>

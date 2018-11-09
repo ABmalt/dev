@@ -13,7 +13,25 @@ export default class ProgressbarDoc extends Component {
               disabled
             >
               <span className="e-spinner" />
-              <span className="e-progress" style={{ width: "33%" }} />
+              <span className="e-progress" style={{ width: "10%" }} />
+            </button>
+          </div>
+          <div className="flex-1 px-2">
+            <button
+              className="e-control e-progress-btn e-hide-spinner e-btn e-progress-active"
+              disabled
+            >
+              <span className="e-spinner" />
+              <span className="e-progress" style={{ width: "50%" }} />
+            </button>
+          </div>
+          <div className="flex-1 px-2">
+            <button
+              className="e-control e-progress-btn e-hide-spinner e-btn e-progress-active"
+              disabled
+            >
+              <span className="e-spinner" />
+              <span className="e-progress" style={{ width: "90%" }} />
             </button>
           </div>
         </div>

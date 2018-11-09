@@ -5,10 +5,10 @@ export default class SpinnerDoc extends Component {
   componentDidMount() {
     createSpinner({ target: document.getElementById("spinner1") });
     showSpinner(document.getElementById("spinner1"));
-    createSpinner({ target: document.getElementById("spinner2") });
-    showSpinner(document.getElementById("spinner2"));
-    createSpinner({ target: document.getElementById("spinner3") });
-    showSpinner(document.getElementById("spinner3"));
+    // createSpinner({ target: document.getElementById("spinner2") });
+    // showSpinner(document.getElementById("spinner2"));
+    // createSpinner({ target: document.getElementById("spinner3") });
+    // showSpinner(document.getElementById("spinner3"));
   }
 
   render() {

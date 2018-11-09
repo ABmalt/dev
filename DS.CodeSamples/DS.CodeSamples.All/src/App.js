@@ -6,6 +6,7 @@ import SwitchDoc from "./comps/switch";
 import CheckboxDoc from "./comps/checkbox";
 import CardDoc from "./comps/card";
 import ChipDoc from "./comps/chip";
+import DatePickerDoc from "./comps/datepicker";
 import RadioDoc from "./comps/radio";
 import SliderDoc from "./comps/slider";
 import InputDoc from "./comps/input";
@@ -21,6 +22,8 @@ import MenuDoc from "./comps/menu";
 // import ModalDoc from "./comps/modal";
 import ProgressbarDoc from "./comps/progressbar";
 import SearchDoc from "./comps/search";
+import SpinnerDoc from "./comps/spinner";
+import TimepickerDoc from "./comps/timepicker";
 import ToolbarDoc from "./comps/toolbar";
 import TooltipDoc from "./comps/tooltip";
 import { enableRipple } from "@syncfusion/ej2-base";
@@ -44,6 +47,8 @@ class App extends Component {
         <DropdownDoc />
         <ComboBoxDoc />
         <MultiSelectDoc />
+        <DatePickerDoc />
+        <TimepickerDoc />
         <ChipDoc />
         <AccordionDoc />
         <CardDoc />
@@ -52,6 +57,7 @@ class App extends Component {
         <ToolbarDoc />
         <TooltipDoc />
         <ProgressbarDoc />
+        <SpinnerDoc />
       </div>
     );
   }
