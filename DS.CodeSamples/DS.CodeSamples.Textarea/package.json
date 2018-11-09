@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@syncfusion/ej2-base": "16.3.30",
-    "malt-css": "^1.0.201810119",
+    "malt-css": "latest",
     "react": "16.5.1",
     "react-dom": "16.5.1",
     "react-scripts": "2.1.0"

@@ -8,7 +8,7 @@ export default class SwitchDoc extends Component {
         <div className="md:flex items-center">
           <div className="w-48 font-bold">Switch</div>
 
-          <div className="flex-1 text-center">
+          <div className="flex-1">
             <div className="flex">
               <div className="flex-1">
                 <SwitchComponent checked={true} cssClass="malt-switch-alt3" />
