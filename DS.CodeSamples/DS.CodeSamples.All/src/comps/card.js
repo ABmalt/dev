@@ -27,13 +27,10 @@ export default class CardDoc extends Component {
           <div className="flex-1 px-2">
             <div className="e-card">
               <div className="e-card-image">
-                <div className="e-card-title">JavaScript</div>
+                <div className="e-card-title">Lorem</div>
               </div>
               <div className="e-card-content">
-                JavaScript Succinctly was written to give readers an accurate,
-                concise examination of JavaScript objects and their supporting
-                nuances, such as complex values, primitive values, scope,
-                inheritance, the head object, and more.
+                Lorem, ipsum dolor sit amet consectetur elit.
               </div>
             </div>
           </div>
@@ -42,9 +39,10 @@ export default class CardDoc extends Component {
               <div className="e-card-header-title">Eiffel Tower</div>
               <div className="e-card-content">
                 The Eiffel Tower is acknowledged as the universal symbol of
-                Paris and France.
+                Paris and France. Commodi vero repellendus doloribus perferendis
+                assumenda praesentium vitae.
               </div>
-              <div className="e-card-actions e-card-vertical">
+              <div className="e-card-actions">
                 <button className="e-card-btn">More</button>
                 <a href="/">Share</a>
               </div>

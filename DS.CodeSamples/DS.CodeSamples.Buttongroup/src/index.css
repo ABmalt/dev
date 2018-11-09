@@ -4,28 +4,3 @@
   font-family: Arial, sans-serif;
   padding: 1rem;
 }
-
-.e-MI::before,
-.material_icons::before {
-  font-family: "Material Icons" !important;
-}
-
-.e-btn .e-btn-icon,
-.e-btn-group .e-btn-icon {
-  font-size: inherit;
-}
-.e-icons {
-  font-family: e-icons;
-}
-
-button.e-progress-btn {
-  width: 100%;
-  padding: 0;
-  height: 4px;
-  border: 0 none;
-  background-color: #eaeaea;
-}
-
-.e-progress-btn .e-progress {
-  background-color: #b11f24;
-}

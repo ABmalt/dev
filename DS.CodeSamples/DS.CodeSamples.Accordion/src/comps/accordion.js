@@ -55,7 +55,7 @@ export default class AccordionDoc extends Component {
                 <div>
                   <div>
                     <span
-                      className="material_icons account_circle mr-2"
+                      className="material-icons account_circle mr-2"
                       style={{ verticalAlign: -3 + "px" }}
                     />
                     Section A
@@ -69,7 +69,7 @@ export default class AccordionDoc extends Component {
                 <div>
                   <div>
                     <span
-                      className="material_icons account_circle mr-2"
+                      className="material-icons account_circle mr-2"
                       style={{ verticalAlign: -3 + "px" }}
                     />
                     Section B
@@ -83,7 +83,7 @@ export default class AccordionDoc extends Component {
                 <div>
                   <div>
                     <span
-                      className="material_icons account_circle mr-2"
+                      className="material-icons account_circle mr-2"
                       style={{ verticalAlign: -3 + "px" }}
                     />
                     Section C

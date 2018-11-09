@@ -12,32 +12,32 @@ export default class ButtongroupDoc extends Component {
             <div className="e-btn-group">
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="material_icons account_box"
+                iconCss="material-icons account_box"
               />
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="material_icons format_list_bulleted"
+                iconCss="material-icons format_list_bulleted"
               />
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="material_icons format_indent_increase"
+                iconCss="material-icons format_indent_increase"
               />
             </div>
             <span>&nbsp;</span>
             <div className="e-btn-group">
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="material_icons account_box"
+                iconCss="material-icons account_box"
                 disabled
               />
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="material_icons format_list_bulleted"
+                iconCss="material-icons format_list_bulleted"
                 disabled
               />
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="material_icons format_indent_increase"
+                iconCss="material-icons format_indent_increase"
                 disabled
               />
             </div>
@@ -46,32 +46,32 @@ export default class ButtongroupDoc extends Component {
             <div className="e-btn-group">
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="material_icons account_box"
+                iconCss="material-icons account_box"
               />
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="material_icons format_list_bulleted"
+                iconCss="material-icons format_list_bulleted"
               />
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="material_icons format_indent_increase"
+                iconCss="material-icons format_indent_increase"
               />
             </div>
             <span>&nbsp;</span>
             <div className="e-btn-group">
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="material_icons account_box"
+                iconCss="material-icons account_box"
                 disabled
               />
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="material_icons format_list_bulleted"
+                iconCss="material-icons format_list_bulleted"
                 disabled
               />
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="material_icons format_indent_increase"
+                iconCss="material-icons format_indent_increase"
                 disabled
               />
             </div>
@@ -80,32 +80,32 @@ export default class ButtongroupDoc extends Component {
             <div className="inline-block">
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="material_icons account_box"
+                iconCss="material-icons account_box"
               />
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="material_icons format_list_bulleted"
+                iconCss="material-icons format_list_bulleted"
               />
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="material_icons format_indent_increase"
+                iconCss="material-icons format_indent_increase"
               />
             </div>
             <span>&nbsp;</span>
             <div className="inline-block">
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="material_icons account_box"
+                iconCss="material-icons account_box"
                 disabled
               />
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="material_icons format_list_bulleted"
+                iconCss="material-icons format_list_bulleted"
                 disabled
               />
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="material_icons format_indent_increase"
+                iconCss="material-icons format_indent_increase"
                 disabled
               />
             </div>

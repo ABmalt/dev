@@ -22,12 +22,12 @@ export default class ChipDoc extends Component {
           <div className="flex-1">
             <div className="e-multi-select-wrapper">
               <span className="e-chips">
-                <span className="material_icons account_circle mr-1 -ml-1" />
+                <span className="material-icons account_circle mr-1 -ml-1" />
                 <span className="e-chipcontent">Default</span>
                 <span className="e-chips-close" />
               </span>
               <span className="e-chips e-chip-selected">
-                <span className="material_icons account_circle mr-1 -ml-1" />
+                <span className="material-icons account_circle mr-1 -ml-1" />
                 <span className="e-chipcontent">Selected</span>
                 <span className="e-chips-close" />
               </span>

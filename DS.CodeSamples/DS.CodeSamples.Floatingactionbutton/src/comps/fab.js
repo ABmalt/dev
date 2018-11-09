@@ -11,7 +11,7 @@ export default class App extends Component {
           <div className="flex-1">
             <ButtonComponent
               cssClass="e-round"
-              iconCss="material_icons add"
+              iconCss="material-icons add"
               isPrimary={true}
             />
           </div>

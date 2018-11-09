@@ -14,12 +14,12 @@ export default class ButtonDoc extends Component {
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="e-icons e-add-icon"
+                iconCss="material-icons account_box"
               />
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="e-icons e-add-icon"
+                iconCss="material-icons account_box"
                 disabled
               />
             </div>
@@ -28,23 +28,26 @@ export default class ButtonDoc extends Component {
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="e-icons e-add-icon"
+                iconCss="material-icons account_box"
               />
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="e-icons e-add-icon"
+                iconCss="material-icons account_box"
                 disabled
               />
             </div>
             <div className="flex-1 px-2">
               <ButtonComponent cssClass="e-flat">Flat</ButtonComponent>
               <span>&nbsp;</span>
-              <ButtonComponent cssClass="e-flat" iconCss="e-icons e-add-icon" />
+              <ButtonComponent
+                cssClass="e-flat"
+                iconCss="material-icons account_box"
+              />
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="e-icons e-add-icon"
+                iconCss="material-icons account_box"
                 disabled
               />
             </div>
@@ -58,14 +61,14 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="e-icons e-play-icon"
+                iconCss="material-icons account_box"
               >
                 Play
               </ButtonComponent>
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-primary"
-                iconCss="e-icons e-play-icon"
+                iconCss="material-icons account_box"
                 disabled
               >
                 Play
@@ -74,7 +77,7 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="e-icons e-open-icon"
+                iconCss="material-icons account_box"
                 iconPosition="Right"
               >
                 Open
@@ -82,7 +85,7 @@ export default class ButtonDoc extends Component {
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-outline"
-                iconCss="e-icons e-open-icon"
+                iconCss="material-icons account_box"
                 iconPosition="Right"
                 disabled
               >
@@ -92,7 +95,7 @@ export default class ButtonDoc extends Component {
             <div className="flex-1 px-2">
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="e-icons e-open-icon"
+                iconCss="material-icons account_box"
                 iconPosition="Right"
               >
                 Open
@@ -100,7 +103,7 @@ export default class ButtonDoc extends Component {
               <span>&nbsp;</span>
               <ButtonComponent
                 cssClass="e-flat"
-                iconCss="e-icons e-open-icon"
+                iconCss="material-icons account_box"
                 iconPosition="Right"
                 disabled
               >
