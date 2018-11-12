@@ -25,6 +25,22 @@ export default class InputValidatorDoc extends Component {
   componentDidMount() {
     this.rendereComplete();
   }
+
+  floatFocus(args) {
+    args.target.parentElement.classList.add("e-input-focus");
+  }
+  floatBlur(args) {
+    args.target.parentElement.classList.remove("e-input-focus");
+  }
+  onIconClick(args) {
+    args.persist();
+    setTimeout(() => {
+      args.target.classList.add("e-input-btn-ripple");
+    }, 500);
+  }
+  onIconUnClick(args) {
+    args.target.classList.remove("e-input-btn-ripple");
+  }
   render() {
     return (
       <div className="mt-8 Comp">
@@ -42,9 +58,7 @@ export default class InputValidatorDoc extends Component {
                   required
                 />
                 <span className="e-float-line" />
-                <label className="e-float-text" htmlFor="name1">
-                  Name
-                </label>
+                <label className="e-float-text e-label-bottom">Name</label>
               </div>
               <div id="nameError1" className="pl-2" />
             </div>
@@ -57,14 +71,18 @@ export default class InputValidatorDoc extends Component {
                   type="text"
                   id="name2"
                   name="name2"
+                  onFocus={this.floatFocus}
+                  onBlur={this.floatBlur}
                   data-msg-containerid="nameError2"
                   required
                 />
                 <span className="e-float-line" />
-                <label className="e-float-text" htmlFor="name2">
-                  Name
-                </label>
-                <span className="e-input-group-icon e-input-picture" />
+                <label className="e-float-text e-label-bottom">With icon</label>
+                <span
+                  className="e-input-group-icon material-icons account_box"
+                  onMouseDown={this.onIconClick}
+                  onMouseUp={this.onIconUnClick}
+                />
               </div>
               <div id="nameError2" className="pl-2" />
             </div>
