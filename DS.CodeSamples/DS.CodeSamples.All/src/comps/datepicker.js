@@ -10,19 +10,19 @@ export default class DatePickerDoc extends Component {
           <div className="flex-1 px-2">
             <DatePickerComponent
               placeholder="Select"
-              cssClass="malt-dateepicker"
+              cssClass="malt-datepicker"
             />
           </div>
           <div className="flex-1 px-2">
             <DatePickerComponent
               placeholder="Select"
-              cssClass="malt-dateepicker"
+              cssClass="malt-datepicker"
             />
           </div>
           <div className="flex-1 px-2">
             <DatePickerComponent
               placeholder="Select"
-              cssClass="malt-dateepicker"
+              cssClass="malt-datepicker"
               disabled
             />
           </div>
