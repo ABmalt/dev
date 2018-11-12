@@ -9,13 +9,23 @@ export default class TimepickerDoc extends Component {
           <div className="w-48 font-bold">Timepicker</div>
 
           <div className="flex-1 px-2">
-            <TimePickerComponent placeholder="Select" />
+            <TimePickerComponent
+              placeholder="Select"
+              cssClass="malt-timepicker"
+            />
           </div>
           <div className="flex-1 px-2">
-            <TimePickerComponent placeholder="Select" />
+            <TimePickerComponent
+              placeholder="Select"
+              cssClass="malt-timepicker"
+            />
           </div>
           <div className="flex-1 px-2">
-            <TimePickerComponent placeholder="Select" disabled />
+            <TimePickerComponent
+              placeholder="Select"
+              cssClass="malt-timepicker"
+              disabled
+            />
           </div>
         </div>
       </div>

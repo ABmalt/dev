@@ -8,13 +8,23 @@ export default class DatePickerDoc extends Component {
         <div className="md:flex items-center">
           <div className="w-48 font-bold">Datepicker</div>
           <div className="flex-1 px-2">
-            <DatePickerComponent placeholder="Select" />
+            <DatePickerComponent
+              placeholder="Select"
+              cssClass="malt-dateepicker"
+            />
           </div>
           <div className="flex-1 px-2">
-            <DatePickerComponent placeholder="Select" />
+            <DatePickerComponent
+              placeholder="Select"
+              cssClass="malt-dateepicker"
+            />
           </div>
           <div className="flex-1 px-2">
-            <DatePickerComponent placeholder="Select" disabled />
+            <DatePickerComponent
+              placeholder="Select"
+              cssClass="malt-dateepicker"
+              disabled
+            />
           </div>
         </div>
       </div>
