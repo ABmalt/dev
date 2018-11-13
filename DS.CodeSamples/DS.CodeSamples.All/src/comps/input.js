@@ -5,6 +5,12 @@ import {
 } from "@syncfusion/ej2-react-inputs";
 
 export default class InputDoc extends Component {
+  onInputFocus(args) {
+    args.target.parentElement.classList.add("e-input-focus");
+  }
+  onInputBlur(args) {
+    args.target.parentElement.classList.remove("e-input-focus");
+  }
   render() {
     return (
       <div>
@@ -21,7 +27,12 @@ export default class InputDoc extends Component {
             </div>
             <div className="flex-1 px-2">
               <div className="e-float-input e-input-group">
-                <input className="e-control e-textbox" type="text" />
+                <input
+                  className="e-control e-textbox"
+                  type="text"
+                  onFocus={this.onInputFocus}
+                  onBlur={this.onInputBlur}
+                />
                 <span className="e-float-line" />
                 <label className="e-float-text e-label-bottom">With Icon</label>
                 <span className="e-input-group-icon material-icons account_box" />
@@ -41,7 +52,7 @@ export default class InputDoc extends Component {
             <div className="w-48 font-bold">TextArea</div>
 
             <div className="flex-1 px-2">
-              <div className="e-float-input">
+              <div className="e-float-input e-input-group">
                 <textarea required />
                 <span className="e-float-line" />
                 <label className="e-float-text">TextArea</label>
@@ -49,7 +60,7 @@ export default class InputDoc extends Component {
             </div>
 
             <div className="flex-1 px-2">
-              <div className="e-float-input">
+              <div className="e-float-input e-input-group">
                 <textarea required />
                 <span className="e-float-line" />
                 <label className="e-float-text">TextArea</label>
@@ -57,7 +68,7 @@ export default class InputDoc extends Component {
             </div>
 
             <div className="flex-1 px-2">
-              <div className="e-float-input">
+              <div className="e-float-input e-input-group e-disabled">
                 <textarea placeholder="Disabled" disabled={true} />
               </div>
             </div>

@@ -28,6 +28,12 @@ export default class InputValidatorDoc extends Component {
     var htmlAttr = { name: "name" };
     this.textboxInstance.addAttributes(htmlAttr);
   }
+  onInputFocus(args) {
+    args.target.parentElement.classList.add("e-input-focus");
+  }
+  onInputBlur(args) {
+    args.target.parentElement.classList.remove("e-input-focus");
+  }
 
   render() {
     return (
@@ -56,6 +62,8 @@ export default class InputValidatorDoc extends Component {
                 id="Email"
                 name="email"
                 data-msg-containerid="mailError"
+                onFocus={this.onInputFocus}
+                onBlur={this.onInputBlur}
               />
               <span className="e-float-line" />
               <label className="e-float-text e-label-bottom" htmlFor="email">
