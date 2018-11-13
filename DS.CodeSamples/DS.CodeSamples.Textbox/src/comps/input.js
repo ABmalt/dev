@@ -20,11 +20,11 @@ export default class InputDoc extends Component {
               />
             </div>
             <div className="flex-1 px-2">
-              <div className="e-float-input e-control-wrapper e-input-group">
+              <div className="e-float-input e-input-group">
                 <input className="e-control e-textbox" type="text" />
                 <span className="e-float-line" />
                 <label className="e-float-text e-label-bottom">With Icon</label>
-                <span className="e-input-group-icon e-input-calendar" />
+                <span className="e-input-group-icon material-icons account_box" />
               </div>
             </div>
             <div className="flex-1 px-2">
@@ -41,23 +41,25 @@ export default class InputDoc extends Component {
             <div className="w-48 font-bold">TextArea</div>
 
             <div className="flex-1 px-2">
-              <textarea className="e-input" placeholder="Address" />
+              <div className="e-float-input">
+                <textarea required />
+                <span className="e-float-line" />
+                <label className="e-float-text">TextArea</label>
+              </div>
             </div>
 
             <div className="flex-1 px-2">
               <div className="e-float-input">
                 <textarea required />
                 <span className="e-float-line" />
-                <label className="e-float-text">Address</label>
+                <label className="e-float-text">TextArea</label>
               </div>
             </div>
 
             <div className="flex-1 px-2">
-              <textarea
-                className="e-input"
-                placeholder="Disabled"
-                disabled={true}
-              />
+              <div className="e-float-input">
+                <textarea placeholder="Disabled" disabled={true} />
+              </div>
             </div>
           </div>
         </div>
@@ -68,17 +70,9 @@ export default class InputDoc extends Component {
 
             <div className="flex-1 px-2">
               <MaskedTextBoxComponent
-                mask={"#####"}
-                placeholder={"5 Numbers"}
-                floatLabelType="Always"
-              />
-            </div>
-
-            <div className="flex-1 px-2">
-              <MaskedTextBoxComponent
-                mask={"LLLLLL"}
-                placeholder={"6 Letters"}
-                floatLabelType="Always"
+                mask={"\\(999\\) 999-9999"}
+                placeholder={"(___) ___-____"}
+                floatLabelType="Never"
               />
             </div>
 
@@ -86,7 +80,16 @@ export default class InputDoc extends Component {
               <MaskedTextBoxComponent
                 mask="[0-2][0-9][0-9].[0-2][0-9][0-9].[0-2][0-9][0-9].[0-2][0-9][0-9]"
                 placeholder="IP Address"
-                floatLabelType="Always"
+                floatLabelType="Auto"
+              />
+            </div>
+
+            <div className="flex-1 px-2">
+              <MaskedTextBoxComponent
+                mask={"\\(999\\) 999-9999"}
+                placeholder={"Disabled"}
+                floatLabelType="Never"
+                enabled={false}
               />
             </div>
           </div>

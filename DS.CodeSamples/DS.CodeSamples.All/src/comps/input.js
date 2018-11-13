@@ -5,12 +5,6 @@ import {
 } from "@syncfusion/ej2-react-inputs";
 
 export default class InputDoc extends Component {
-  onInputFocus(args) {
-    args.target.parentElement.classList.add("e-input-focus");
-  }
-  onInputBlur(args) {
-    args.target.parentElement.classList.remove("e-input-focus");
-  }
   render() {
     return (
       <div>
@@ -26,13 +20,8 @@ export default class InputDoc extends Component {
               />
             </div>
             <div className="flex-1 px-2">
-              <div className="e-float-input e-control-wrapper e-input-group">
-                <input
-                  className="e-control e-textbox"
-                  type="text"
-                  onFocus={this.onInputFocus}
-                  onBlur={this.onInputBlur}
-                />
+              <div className="e-float-input e-input-group">
+                <input className="e-control e-textbox" type="text" />
                 <span className="e-float-line" />
                 <label className="e-float-text e-label-bottom">With Icon</label>
                 <span className="e-input-group-icon material-icons account_box" />
@@ -81,17 +70,9 @@ export default class InputDoc extends Component {
 
             <div className="flex-1 px-2">
               <MaskedTextBoxComponent
-                mask={"#####"}
-                placeholder={"5 Numbers"}
-                floatLabelType="Always"
-              />
-            </div>
-
-            <div className="flex-1 px-2">
-              <MaskedTextBoxComponent
-                mask={"LLLLLL"}
-                placeholder={"6 Letters"}
-                floatLabelType="Always"
+                mask={"\\(999\\) 999-9999"}
+                placeholder={"(___) ___-____"}
+                floatLabelType="Never"
               />
             </div>
 
@@ -99,7 +80,16 @@ export default class InputDoc extends Component {
               <MaskedTextBoxComponent
                 mask="[0-2][0-9][0-9].[0-2][0-9][0-9].[0-2][0-9][0-9].[0-2][0-9][0-9]"
                 placeholder="IP Address"
-                floatLabelType="Always"
+                floatLabelType="Auto"
+              />
+            </div>
+
+            <div className="flex-1 px-2">
+              <MaskedTextBoxComponent
+                mask={"\\(999\\) 999-9999"}
+                placeholder={"Disabled"}
+                floatLabelType="Never"
+                enabled={false}
               />
             </div>
           </div>

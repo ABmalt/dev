@@ -1,84 +1,78 @@
 import React, { Component } from "react";
-import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
 import { FormValidator } from "@syncfusion/ej2-inputs";
+import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
 
 export default class InputValidatorDoc extends Component {
-  rendereComplete() {
-    this.formValidator1 = {
-      rules: {
-        name1: {
-          required: [true, "* Enter your name"]
-        }
-      }
+  constructor(props) {
+    super(props);
+    this.inputRefElement = null;
+    this.inputRef = element => {
+      this.inputRefElement = element;
     };
-    this.form1 = new FormValidator("#iv1", this.formValidator1);
-
-    this.formValidator2 = {
-      rules: {
-        name2: {
-          required: [true, "* Enter your name"]
-        }
-      }
-    };
-    this.form2 = new FormValidator("#iv2", this.formValidator2);
   }
   componentDidMount() {
-    this.rendereComplete();
+    this.formValidator = {
+      rules: {
+        name: {
+          required: [true, "* Enter your name"]
+        },
+        email: {
+          required: [true, "* Enter your email"]
+        }
+      }
+    };
+    this.formObject = new FormValidator("#formTemp", this.formValidator);
   }
+
+  OnCreated() {
+    var htmlAttr = { name: "name" };
+    this.textboxInstance.addAttributes(htmlAttr);
+  }
+
   render() {
     return (
-      <div>
-        <div className="mt-8 Comp">
-          <div className="md:flex ">
-            <div className="w-48 font-bold">Validator</div>
+      <div className="mt-8 Comp">
+        <form id="formTemp" method="post" className="md:flex text-md">
+          <div className="w-48 font-bold">Validator</div>
 
-            <div className="flex-1 px-2">
-              <div id="iv1">
-                <div className="e-float-input">
-                  <input
-                    type="text"
-                    id="name1"
-                    name="name1"
-                    data-msg-containerid="nameError1"
-                    required
-                  />
-                  <span className="e-float-line" />
-                  <label className="e-float-text" htmlFor="name1">
-                    Name
-                  </label>
-                </div>
-                <div id="nameError1" className="pl-2" />
-              </div>
-            </div>
-
-            <div className="flex-1 px-2">
-              <div id="iv2">
-                <div className="e-float-input e-input-group">
-                  <input
-                    type="text"
-                    id="name2"
-                    name="name2"
-                    data-msg-containerid="nameError2"
-                    required
-                  />
-                  <span className="e-float-line" />
-                  <label className="e-float-text" htmlFor="name2">
-                    Name
-                  </label>
-                  <span className="e-input-group-icon e-input-picture" />
-                </div>
-                <div id="nameError2" className="pl-2" />
-              </div>
-            </div>
-            <div className="flex-1 px-2">
-              <TextBoxComponent
-                placeholder="Disabled"
-                floatLabelType="Auto"
-                disabled={true}
-              />
-            </div>
+          <div className="flex-1 px-2">
+            <TextBoxComponent
+              name="name"
+              id="textbox"
+              floatLabelType="Auto"
+              placeholder={"Name"}
+              ref={textbox => (this.textboxInstance = textbox)}
+              created={this.OnCreated.bind(this)}
+              data-msg-containerid="nameError"
+              required
+            />
+            <div id="nameError" className="pl-2" />
           </div>
-        </div>
+
+          <div className="flex-1 px-2">
+            <div className="e-float-input e-input-group">
+              <input
+                type="email"
+                id="Email"
+                name="email"
+                data-msg-containerid="mailError"
+              />
+              <span className="e-float-line" />
+              <label className="e-float-text e-label-bottom" htmlFor="email">
+                Email
+              </label>
+              <span className="e-input-group-icon material-icons account_box" />
+            </div>
+            <div id="mailError" className="pl-2" />
+          </div>
+          <div className="flex-1 px-2">
+            <TextBoxComponent
+              placeholder="Disabled"
+              floatLabelType="Auto"
+              disabled={true}
+            />
+          </div>
+        </form>
       </div>
     );
   }
