@@ -6,16 +6,16 @@ export default class DropDownButtonDoc extends Component {
     super(...arguments);
     this.items = [
       {
-        text: "Dashboard"
+        text: "Button 1"
       },
       {
-        text: "Notifications"
+        text: "Button 2"
       },
       {
-        text: "User Settings"
+        text: "Button 3"
       },
       {
-        text: "Log Out"
+        text: "Button 4"
       }
     ];
   }
@@ -27,30 +27,30 @@ export default class DropDownButtonDoc extends Component {
 
           <div className="flex-1 px-2">
             <DropDownButtonComponent items={this.items} cssClass="e-primary">
-              Profile
+              Button
             </DropDownButtonComponent>
             <span>&nbsp;</span>
             <DropDownButtonComponent cssClass="e-primary" disabled={true}>
-              Profile
+              Button
             </DropDownButtonComponent>
           </div>
 
           <div className="flex-1 px-2">
             <DropDownButtonComponent items={this.items} cssClass="e-outline">
-              Profile
+              Button
             </DropDownButtonComponent>
             <span>&nbsp;</span>
             <DropDownButtonComponent cssClass="e-outline" disabled={true}>
-              Profile
+              Button
             </DropDownButtonComponent>
           </div>
           <div className="flex-1 px-2">
             <DropDownButtonComponent items={this.items} cssClass="e-flat">
-              Profile
+              Button
             </DropDownButtonComponent>
             <span>&nbsp;</span>
             <DropDownButtonComponent cssClass="e-flat" disabled={true}>
-              Profile
+              Button
             </DropDownButtonComponent>
           </div>
         </div>

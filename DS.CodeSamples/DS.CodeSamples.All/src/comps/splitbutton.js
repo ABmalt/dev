@@ -7,13 +7,13 @@ export default class SplitButtonDoc extends Component {
     super();
     this.items = [
       {
-        text: "Paste"
+        text: "Button 1"
       },
       {
-        text: "Paste 1"
+        text: "Button 2"
       },
       {
-        text: "Paste 2"
+        text: "Button 3"
       }
     ];
   }
@@ -27,12 +27,12 @@ export default class SplitButtonDoc extends Component {
             <SplitButtonComponent
               cssClass="e-primary"
               items={this.items}
-              content="Paste"
+              content="Button"
             />
             <span>&nbsp;</span>
             <SplitButtonComponent
               cssClass="e-primary"
-              content="Paste"
+              content="Button"
               disabled={true}
             />
           </div>
@@ -41,12 +41,12 @@ export default class SplitButtonDoc extends Component {
             <SplitButtonComponent
               cssClass="e-outline"
               items={this.items}
-              content="Paste"
+              content="Button"
             />
             <span>&nbsp;</span>
             <SplitButtonComponent
               cssClass="e-outline"
-              content="Paste"
+              content="Button"
               disabled={true}
             />
           </div>
@@ -54,12 +54,12 @@ export default class SplitButtonDoc extends Component {
             <SplitButtonComponent
               cssClass="e-flat"
               items={this.items}
-              content="Paste"
+              content="Button"
             />
             <span>&nbsp;</span>
             <SplitButtonComponent
               cssClass="e-flat"
-              content="Paste"
+              content="Button"
               disabled={true}
             />
           </div>
