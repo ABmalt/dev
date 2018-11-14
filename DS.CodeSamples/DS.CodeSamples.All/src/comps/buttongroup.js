@@ -43,7 +43,7 @@ export default class ButtongroupDoc extends Component {
             </div>
           </div>
           <div className="flex-1 px-2">
-            <div className="e-btn-group">
+            <div className="e-btn-group e-outline">
               <ButtonComponent
                 cssClass="e-outline"
                 iconCss="material-icons account_box"
@@ -58,7 +58,7 @@ export default class ButtongroupDoc extends Component {
               />
             </div>
             <span>&nbsp;</span>
-            <div className="e-btn-group">
+            <div className="e-btn-group e-outline">
               <ButtonComponent
                 cssClass="e-outline"
                 iconCss="material-icons account_box"
@@ -77,7 +77,7 @@ export default class ButtongroupDoc extends Component {
             </div>
           </div>
           <div className="flex-1 px-2">
-            <div className="inline-block">
+            <div className="e-btn-group">
               <ButtonComponent
                 cssClass="e-flat"
                 iconCss="material-icons account_box"
@@ -92,7 +92,7 @@ export default class ButtongroupDoc extends Component {
               />
             </div>
             <span>&nbsp;</span>
-            <div className="inline-block">
+            <div className="e-btn-group">
               <ButtonComponent
                 cssClass="e-flat"
                 iconCss="material-icons account_box"
@@ -105,6 +105,112 @@ export default class ButtongroupDoc extends Component {
               />
               <ButtonComponent
                 cssClass="e-flat"
+                iconCss="material-icons format_indent_increase"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="md:flex items-center mt-8">
+          <div className="w-48 font-bold">&nbsp;</div>
+          <div className="flex-1 px-2">
+            <div className="e-btn-group">
+              <ButtonComponent
+                cssClass="e-danger"
+                iconCss="material-icons account_box"
+              />
+              <ButtonComponent
+                cssClass="e-danger"
+                iconCss="material-icons format_list_bulleted"
+              />
+              <ButtonComponent
+                cssClass="e-danger"
+                iconCss="material-icons format_indent_increase"
+              />
+            </div>
+            <span>&nbsp;</span>
+            <div className="e-btn-group">
+              <ButtonComponent
+                cssClass="e-danger"
+                iconCss="material-icons account_box"
+                disabled
+              />
+              <ButtonComponent
+                cssClass="e-danger"
+                iconCss="material-icons format_list_bulleted"
+                disabled
+              />
+              <ButtonComponent
+                cssClass="e-danger"
+                iconCss="material-icons format_indent_increase"
+                disabled
+              />
+            </div>
+          </div>
+          <div className="flex-1 px-2">
+            <div className="e-btn-group">
+              <ButtonComponent
+                cssClass="e-success"
+                iconCss="material-icons account_box"
+              />
+              <ButtonComponent
+                cssClass="e-success"
+                iconCss="material-icons format_list_bulleted"
+              />
+              <ButtonComponent
+                cssClass="e-success"
+                iconCss="material-icons format_indent_increase"
+              />
+            </div>
+            <span>&nbsp;</span>
+            <div className="e-btn-group">
+              <ButtonComponent
+                cssClass="e-success"
+                iconCss="material-icons account_box"
+                disabled
+              />
+              <ButtonComponent
+                cssClass="e-success"
+                iconCss="material-icons format_list_bulleted"
+                disabled
+              />
+              <ButtonComponent
+                cssClass="e-success"
+                iconCss="material-icons format_indent_increase"
+                disabled
+              />
+            </div>
+          </div>
+          <div className="flex-1 px-2">
+            <div className="e-btn-group">
+              <ButtonComponent
+                cssClass="e-link"
+                iconCss="material-icons account_box"
+              />
+              <ButtonComponent
+                cssClass="e-link"
+                iconCss="material-icons format_list_bulleted"
+              />
+              <ButtonComponent
+                cssClass="e-link"
+                iconCss="material-icons format_indent_increase"
+              />
+            </div>
+            <span>&nbsp;</span>
+            <div className="e-btn-group">
+              <ButtonComponent
+                cssClass="e-link"
+                iconCss="material-icons account_box"
+                disabled
+              />
+              <ButtonComponent
+                cssClass="e-link"
+                iconCss="material-icons format_list_bulleted"
+                disabled
+              />
+              <ButtonComponent
+                cssClass="e-link"
                 iconCss="material-icons format_indent_increase"
                 disabled
               />

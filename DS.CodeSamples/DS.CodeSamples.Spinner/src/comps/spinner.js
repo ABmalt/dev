@@ -14,7 +14,7 @@ export default class SpinnerDoc extends Component {
   render() {
     return (
       <div className="mt-8 Comp">
-        <div className="md:flex items-center">
+        <div className="flex items-center">
           <div className="w-48 font-bold">Spinner</div>
 
           <div className="flex-1 relative" id="spinner1" />

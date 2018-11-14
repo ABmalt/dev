@@ -112,6 +112,27 @@ export default class ButtonDoc extends Component {
             </div>
           </div>
         </div>
+        <div className="mt-8 Comp">
+          <div className="md:flex items-center">
+            <div className="w-48 font-bold">&nbsp;</div>
+
+            <div className="flex-1 px-2">
+              <ButtonComponent cssClass="e-danger">Negative</ButtonComponent>
+              <span>&nbsp;</span>
+              <ButtonComponent cssClass="e-danger" disabled>
+                Negative
+              </ButtonComponent>
+            </div>
+            <div className="flex-1 px-2">
+              <ButtonComponent cssClass="e-success">Positive</ButtonComponent>
+              <span>&nbsp;</span>
+
+              <ButtonComponent cssClass="e-success" disabled>
+                Positive
+              </ButtonComponent>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
