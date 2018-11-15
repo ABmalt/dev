@@ -6,10 +6,10 @@ export default class DatePickerDoc extends Component {
     return (
       <div className="mt-8 Comp">
         <div className="md:flex items-center">
-          <div className="w-48 font-bold">Timepicker</div>
+          <div className="w-48 font-bold">Datepicker</div>
 
           <div className="flex-1">
-            <DatePickerComponent id="timepicker" placeholder="Select a Time" />
+            <DatePickerComponent placeholder="Select" />
           </div>
         </div>
       </div>
