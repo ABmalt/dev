@@ -7,11 +7,12 @@ export default class TooltipDoc extends Component {
         <div className="md:flex items-center">
           <div className="w-48 font-bold">Tooltip</div>
           <div className="flex-1">
-            Lorem ipsum{" "}
-            <TooltipComponent content="Lets go green!" className="inline-block">
-              <strong>TOOLTIP</strong>
-            </TooltipComponent>{" "}
-            adipisicing elit.
+            <p>
+              <TooltipComponent content="Hello!" className="inline-block">
+                <div>Tooltip</div>
+              </TooltipComponent>
+              ipsum dolor sit, ametadipisicing elit.
+            </p>
           </div>
         </div>
       </div>
