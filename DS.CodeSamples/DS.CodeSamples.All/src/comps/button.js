@@ -63,15 +63,7 @@ export default class ButtonDoc extends Component {
                 cssClass="e-primary"
                 iconCss="material-icons account_box"
               >
-                Play
-              </ButtonComponent>
-              <span>&nbsp;</span>
-              <ButtonComponent
-                cssClass="e-primary"
-                iconCss="material-icons account_box"
-                disabled
-              >
-                Play
+                Button
               </ButtonComponent>
             </div>
             <div className="flex-1 px-2">
@@ -80,16 +72,7 @@ export default class ButtonDoc extends Component {
                 iconCss="material-icons account_box"
                 iconPosition="Right"
               >
-                Open
-              </ButtonComponent>
-              <span>&nbsp;</span>
-              <ButtonComponent
-                cssClass="e-outline"
-                iconCss="material-icons account_box"
-                iconPosition="Right"
-                disabled
-              >
-                Open
+                Button
               </ButtonComponent>
             </div>
             <div className="flex-1 px-2">
@@ -98,16 +81,7 @@ export default class ButtonDoc extends Component {
                 iconCss="material-icons account_box"
                 iconPosition="Right"
               >
-                Open
-              </ButtonComponent>
-              <span>&nbsp;</span>
-              <ButtonComponent
-                cssClass="e-flat"
-                iconCss="material-icons account_box"
-                iconPosition="Right"
-                disabled
-              >
-                Open
+                Button
               </ButtonComponent>
             </div>
           </div>

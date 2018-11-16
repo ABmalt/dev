@@ -40,8 +40,8 @@ class App extends Component {
         <ButtongroupDoc />
         <SplitButtonDoc />
         <DropDownButtonDoc />
-        <InputValidatorDoc />
         <InputDoc />
+        <InputValidatorDoc />
         <SearchDoc />
         <AutoCompleteDoc />
         <DropdownDoc />
