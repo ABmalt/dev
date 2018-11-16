@@ -7,12 +7,37 @@ export default class MenuDoc extends Component {
     super(...arguments);
     // define the JSON of data
     this.list = [
-      { Id: "Game1", Sports: "Football" },
-      { Id: "Game2", Sports: "Badminton" },
-      { Id: "Game3", Sports: "Basketball" }
+      {
+        header: "Events",
+        subItems: [
+          { text: "Conferences" },
+          { text: "Music" },
+          { text: "Workshops" }
+        ]
+      },
+      {
+        header: "Movies",
+        subItems: [{ text: "Now Showing" }, { text: "Coming soon" }]
+      },
+      {
+        header: "Directory",
+        subItems: [{ text: "Media Gallery" }, { text: "Newsletters" }]
+      },
+      {
+        header: "Queries",
+        subItems: [
+          { text: "Our policy" },
+          { text: "Site Map" },
+          { text: "24x7 Support" }
+        ]
+      },
+      { header: "Services" }
     ];
     // maps the appropriate column to fields property
-    this.fields = { text: "Sports", value: "Id" };
+    this.fields = {
+      text: ["header", "text"],
+      children: ["subItems"]
+    };
   }
   render() {
     return (
